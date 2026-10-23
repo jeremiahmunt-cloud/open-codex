@@ -1,0 +1,52 @@
+/* Optional scoped starting point, not official brand standards.
+   Choose and load licensed fonts in the consuming project. */
+.editorial-theme {
+  --site-bg: #f5f1e8;
+  --site-surface: #fffdf8;
+  --site-text: #202521;
+  --site-muted: #565b54;
+  --site-accent: #755638;
+  --site-border: #8b897f;
+  --site-focus: #245b80;
+  --site-dark: #18201b;
+  --site-on-dark: #fffdf8;
+  --site-font-display: Georgia, "Times New Roman", serif;
+  --site-font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --site-text-sm: 0.875rem;
+  --site-text-base: 1rem;
+  --site-text-lg: clamp(1.125rem, 1rem + 0.6vw, 1.5rem);
+  --site-title: clamp(2.5rem, 1.5rem + 4vw, 5.75rem);
+  --site-space-1: 0.25rem;
+  --site-space-2: 0.5rem;
+  --site-space-3: 0.75rem;
+  --site-space-4: 1rem;
+  --site-space-6: 1.5rem;
+  --site-space-8: 2rem;
+  --site-space-12: 3rem;
+  --site-space-16: 4rem;
+  --site-gutter: clamp(1.25rem, 5vw, 5rem);
+  --site-max-width: 80rem;
+  --site-radius: 0.25rem;
+  --site-motion: 180ms;
+  color: var(--site-text);
+  background: var(--site-bg);
+  font-family: var(--site-font-body);
+  line-height: 1.6;
+  color-scheme: light;
+}
+
+.editorial-theme :where(a, button, input, select, textarea):focus-visible {
+  outline: 3px solid var(--site-focus);
+  outline-offset: 4px;
+}
+
+/* Review focus contrast on every consuming surface, especially photos. */
+.editorial-theme .editorial-dark {
+  --site-focus: #a8d9fa;
+  background: var(--site-dark);
+  color: var(--site-on-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .editorial-theme { --site-motion: 0ms; }
+}

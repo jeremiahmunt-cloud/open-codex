@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website Development"
+  short_description: "Build polished, tested websites across industries"
+  default_prompt: "Use $website-development to build and verify a polished, responsive website for my project."

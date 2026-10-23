@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Internal content-planning example; do not expose private provenance records through a public API.",
+  "record": {
+    "id": "fictional-cypress-courtyard",
+    "kind": "property-concept",
+    "title": "Cypress Courtyard",
+    "summary": "A fictional courtyard residence exploring warm stone, deep shade, and quiet outdoor rooms.",
+    "publicationScope": "public-demo",
+    "verificationStatus": "synthetic",
+    "source": {"type": "authored-fixture", "url": null, "observedAt": null},
+    "facts": {
+      "address": null,
+      "price": null,
+      "currency": "USD",
+      "mainLivingAreaSqFt": null,
+      "detachedAreaSqFt": null,
+      "lotAreaSqFt": null,
+      "bedrooms": null,
+      "bathrooms": null,
+      "availability": null,
+      "poolStatus": "proposed-concept"
+    },
+    "media": [
+      {
+        "id": "courtyard-hero",
+        "path": null,
+        "status": "not-generated",
+        "origin": "planned-ai-concept",
+        "alt": "Proposed fictional courtyard residence with warm stone and a reflecting pool",
+        "caption": "Architectural concept — fictional residence.",
+        "rightsStatus": "review-when-asset-created",
+        "sourceUrl": null
+      }
+    ],
+    "primaryAction": {"label": "Discuss a project", "href": "#contact", "mode": "demo"}
+  }
+}
