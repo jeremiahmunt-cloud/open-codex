@@ -95,6 +95,13 @@ The skill can use Context7, Writing Style, image generation, Amazing Drawing, Zi
 
 ## Verify or update the package
 
+GitHub Actions runs the same validator on pushes and pull requests through
+[Validate package](.github/workflows/validate-package.yml). The `Package validator`
+job uses Python 3.12, read-only repository permissions, and no package installs or
+custom secrets. The official actions are pinned to release commit SHAs. To make
+passing validation a merge requirement, require `Package validator` in the
+repository's branch protection or ruleset settings.
+
 Run the dependency-free package smoke check from this repository:
 
 ```bash
