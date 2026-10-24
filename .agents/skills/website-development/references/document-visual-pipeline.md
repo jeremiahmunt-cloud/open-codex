@@ -2,7 +2,7 @@
 
 Run commands from this skill's `scripts/` folder. The companion files are [maison_visuals.py](../scripts/maison_visuals.py), [requirements.txt](../scripts/requirements.txt), and [maison-brief.json](../scripts/maison-brief.json).
 
-Contents: Install; Commands; Optional stock research; Image quality and publication; Free hosting; Verification.
+Contents: Install; Commands; Local Visual Atelier; Optional stock research; Image quality and publication; Free hosting; Verification.
 
 Turn a long local research PDF into a searchable, page-linked content index, an original-image inventory, a visual storyboard, and render briefs. Keep the private archive separate from the public website.
 
@@ -33,7 +33,29 @@ python maison_visuals.py gate asset-manifest.json --hero
 
 Choose `pdf-...` IDs from your own index; the example ID is not portable across PDFs. Extraction validates the source PDF's SHA-256 before using an xref. Original image bytes and any separate soft mask are retained. Thumbnails are only review aids.
 
-Open the Maison Noire Visual Atelier and import `research-index.json`. The index includes private text and thumbnails. Its file picker reads locally in the browser tab; the site has no upload endpoint or persistent archive storage. The default hosted preview does not contain the private PDF or index. Reloading the tab clears imported data.
+## Local Visual Atelier
+
+Open [the standalone Maison Noire Visual Atelier](../assets/visual-atelier/index.html) from your local skill installation in a current desktop browser. Double-click `assets/visual-atelier/index.html`; no server, npm installation, API key, account, or internet connection is needed. Download/clone the repository first: GitHub's source-code page is not the application. Keep this research tool separate from the public Maison Noire website project.
+
+1. Choose **Import research index** and select the `research-index.json` produced by `analyze` (version 1, up to 96 MiB). It includes private text and raster thumbnails. The six editorial sections come directly from `scripts/maison-brief.json` at build time. **Explore a fictional sample** demonstrates the tool without a real archive.
+2. In **Evidence**, use the theme's suggested lexical matches, search the entire archive with your own words, enter a page number such as `p. 401`, or select **Entire archive** to browse every passage. Click a page reference or **Browse pages** to inspect full extracted text, OCR flags, embedded-image references, and source URLs as non-navigating reference text. **Browse pages** also works when scans have no extracted passages. This is a text/source inspector, not a PDF renderer. Read the original PDF separately when necessary.
+3. In **Image library**, filter by 4K canvas in either orientation, 4K landscape, 4K portrait, or available thumbnails. Dimensions are recalculated from the index's width/height, rather than trusting its qualification flags. A thumbnail is never treated as an original. A wide, short strip is not 4K, and a portrait is not a landscape hero.
+4. Choose **Pair imagery** on a passage, inspect a candidate image, and save its editorial section, proposed role, linked passages, private notes, and optional unapproved caption. The initial image filter shows references from the passage's page; disable **Theme evidence pages** to explore other images. Same-page references are suggestions, not evidence of relevance or display. A candidate can link multiple passages and belong to multiple editorial sections. Selection never changes its archive provenance.
+5. Use **Selection board** to edit/remove connections across all sections. **Export manifest** downloads `maison-visual-manifest.json`, containing selected exact passages, image IDs/xrefs, source page references, pixel metadata, editorial proposals, notes, and the source document SHA-256. It does not include image bytes or thumbnails. **Resume review** restores a manifest after you import the matching source index; a mismatched document is refused. Resume replaces the current selections after a local confirmation. Export first if you want both versions.
+
+All imported content and review choices stay in memory in this browser tab. There are no uploads, analytics, external fonts, remote image URLs, browser storage, or external requests. Raster data thumbnails are the only accepted imported previews. All text uses DOM text nodes. A hash-based Content Security Policy independently blocks connections, remote images/scripts, forms, frames, and workers. Reloading or **Clear session** clears imported research. An export is the explicit local persistence mechanism; it contains confidential selected research and must stay private. Opening the local tool on a shared computer does not provide access control for the files on that computer.
+
+Every export sets `rightsReviewed`, `visualReviewed`, `publicApproved`, `historicalClaimsApproved`, and `dimensionsVerifiedFromBytes` to **false**. Proposed roles do not relabel archive exhibits as actual-property photography. Imported approval flags and altered quotes are discarded; exact quotes are rebuilt from the current index. The existing CLI `gate` rejects the review manifest until a separate publication review creates an approved asset manifest. A 4K metadata threshold does not establish native detail, original-file dimensions, rights, historical accuracy, designation status, or public suitability.
+
+The viewer is built from its template, scoped CSS, pure JavaScript data layer, UI code, fictional sample, and the canonical editorial brief. Rebuild after changing any source:
+
+```text
+python build_atelier.py
+python build_atelier.py --check
+node --test tests/atelier-core.test.cjs
+```
+
+The generated HTML is committed so installed skill copies run directly from disk. The builder uses only Python's standard library and emits exact script/style CSP hashes. System serif/sans fonts provide an offline fallback; the public website's Cormorant Garamond / Manrope brief remains unchanged.
 
 The index flags image-heavy pages with little extracted text for OCR review. It does not invent text from scans or certify OCR accuracy. If needed, use an approved local OCR workflow, inspect its output, and analyze the resulting searchable PDF again. Maps, facsimiles and old photographs remain dated evidence, not current marketing photography.
 
@@ -78,4 +100,14 @@ Official references checked 23 October 2026:
 
 ## Verification
 
-Run `python -m unittest discover -s tests -v`. Tests cover 401-page ingestion, page-linked search, pixel/crop rules, preventing enlargement, publication boundaries, and external-query/host restrictions. These are focused behavior tests, not a full security or accessibility audit.
+Run `python -m unittest discover -s tests -v` and `node --test tests/atelier-core.test.cjs`. Tests cover 401-page ingestion, page-linked search, pixel/crop rules, preventing enlargement, publication boundaries, external-query/host restrictions, viewer/brief build parity, CSP hashes, hostile thumbnail inputs, and manifest round trips. Node 22 is used in CI; the browser is a development-only test dependency.
+
+For the actual offline browser journey, from the repository root:
+
+```bash
+npm ci --ignore-scripts --prefix .agents/skills/website-development/scripts/tests/browser
+npm exec --prefix .agents/skills/website-development/scripts/tests/browser -- playwright install --with-deps --only-shell chromium
+node --test --test-concurrency=1 .agents/skills/website-development/scripts/tests/browser/atelier-browser.test.cjs
+```
+
+Install the Python pipeline dependencies first for the browser test that generates a synthetic 401-page archive. Browser tests cover local-file launch/import, search and page navigation, filters, pairing, export/resume, rejected imports, markup injection, network isolation, reload clearing, keyboard controls, and responsive widths. Set `ATELIER_SCREENSHOTS` to a local output directory to capture fictional-fixture screenshots. Screenshots are not committed. These checks are not a full security or accessibility audit.

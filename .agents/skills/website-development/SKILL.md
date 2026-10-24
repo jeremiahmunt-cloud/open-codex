@@ -57,3 +57,5 @@ Deliver a working website with coherent visual direction, truthful content, and 
 ## Long documents and visual research
 
 For research PDFs, image acquisition, 4K pixel checks, and content-to-visual mapping, use [the local visual pipeline](references/document-visual-pipeline.md). Run the bundled script against the complete local PDF, retain source-page references, review OCR gaps, and keep its private index out of public deployments. Verify actual image pixels; do not present a lower-resolution render or an enlarged derivative as native 4K. Use the generated storyboard as a reviewable proposal, not an automatic factual or design judgement.
+
+Open [the local Visual Atelier](assets/visual-atelier/index.html) to review an index, connect exact passages to candidate imagery across the canonical editorial sections, and export/resume a private review manifest. Keep all approval flags false; selection never grants rights or verifies historical claims. Rebuild with `scripts/build_atelier.py` after editing viewer sources or `scripts/maison-brief.json` and run the documented data/browser checks. Keep the public website project separate.

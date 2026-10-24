@@ -1,0 +1,12 @@
+{
+  "name": "maison-atelier-browser-tests",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Development-only offline viewer verification. The viewer has no runtime dependencies.",
+  "scripts": {
+    "test": "node --test --test-concurrency=1 atelier-browser.test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

@@ -84,6 +84,9 @@ For project-only use, copy the entire `website-development` folder into the targ
 | `assets/verification-handoff.md` | Evidence and delivery template |
 | `assets/content-record.example.json` | Fictional property content and provenance example |
 | `assets/editorial-tokens.css` | Optional scoped design-token starting point |
+| `assets/visual-atelier/index.html` | Standalone local research viewer; open directly in a browser |
+| `assets/visual-atelier/atelier-core.js` | Validated imports, search, image filtering, and review manifests |
+| `scripts/build_atelier.py` | Dependency-free viewer build with the canonical editorial brief and CSP hashes |
 
 The examples include a Blessed Homes AZ collection brief, a fictional residence, a ceramics studio, an internal dashboard, and a small site repair. All property fixture facts are synthetic or explicitly unknown. The package includes no private documents or actual property financial data. The tokens are illustrative, not an official brand standard.
 
@@ -92,6 +95,27 @@ The visual prompt can generate a concept hero when image generation is available
 ## Long-document visual research
 
 The skill includes a local Python pipeline for long PDFs: page-linked text search, original-image extraction, 4K pixel checks, optional Pexels research/downloads, responsive derivatives, and a proposed visual storyboard. Confidential indexes stay separate from website exports.
+
+The **Maison Noire Visual Atelier** is included at
+`.agents/skills/website-development/assets/visual-atelier/index.html`.
+Open that file locally in your browser, import `research-index.json`, inspect
+page-linked evidence and extracted-image thumbnails, filter 4K candidates, and
+connect passages to proposed imagery across the six editorial sections.
+Export or resume a private visual review manifest with source hashes, exact
+passages, notes, and candidate associations. Selection does not approve rights,
+historical claims, or publication. The viewer makes no external requests and
+retains imported data only until the tab reloads/closes. There is no server or
+runtime dependency. It is separate from the public Maison Noire website.
+
+The source, build decisions, and verification record are in
+[the implementation notes](docs/visual-atelier.md). Rebuild the committed viewer
+after editing its sources or `maison-brief.json`:
+
+```bash
+python3 .agents/skills/website-development/scripts/build_atelier.py
+python3 .agents/skills/website-development/scripts/build_atelier.py --check
+node --test .agents/skills/website-development/scripts/tests/atelier-core.test.cjs
+```
 
 See [the workflow and Windows instructions](.agents/skills/website-development/references/document-visual-pipeline.md). The script, dependency list, example brief, and focused tests are bundled in the skill's `scripts/` folder. Local analysis needs no paid API; live Pexels research needs your own free API key.
 
@@ -103,10 +127,12 @@ The skill can use Context7, Writing Style, image generation, Amazing Drawing, Zi
 
 GitHub Actions runs the package validator and visual pipeline tests on pushes
 and pull requests through [Validate package](.github/workflows/validate-package.yml). The `Package validator`
-job uses Python 3.12 and read-only repository permissions. It preserves the
-dependency-free package check, then installs only the pipeline's declared PyMuPDF
-and Pillow dependencies and discovers its `unittest` suite. The tests use synthetic
-fixtures and need no API keys or custom secrets. The official actions are pinned
+job uses Python 3.12, Node 22, and read-only repository permissions. It preserves the
+dependency-free package check, installs the pipeline's declared PyMuPDF
+and Pillow dependencies, and discovers its `unittest` suite. It also verifies
+the generated viewer, runs dependency-free JavaScript tests, and installs the
+locked development-only Playwright package and Chromium for offline browser tests.
+The tests use synthetic fixtures and need no API keys or custom secrets. The official actions are pinned
 to release commit SHAs. To make passing validation a merge requirement, require
 `Package validator` in the
 repository's branch protection or ruleset settings.
@@ -129,6 +155,21 @@ python3 -m unittest discover -s .agents/skills/website-development/scripts/tests
 
 This covers 401-page PDF ingestion, page-linked source traceability, 4K resolution
 rules and preventing upscaling, publication restrictions, and external-request safeguards.
+
+To run browser verification locally after the commands above:
+
+```bash
+npm ci --ignore-scripts --prefix .agents/skills/website-development/scripts/tests/browser
+npm exec --prefix .agents/skills/website-development/scripts/tests/browser -- playwright install --with-deps --only-shell chromium
+node --test --test-concurrency=1 .agents/skills/website-development/scripts/tests/browser/atelier-browser.test.cjs
+```
+
+Development-time dependency/browser installation uses the network. The viewer
+and its imported research do not. Browser tests open the committed HTML with a
+`file:` URL, reject any external request, and exercise a pipeline-generated
+401-page fixture. The workflow also checks that the committed HTML matches its
+sources and canonical editorial brief. Neither private indexes nor screenshots
+belong in the repository or public website export.
 
 After changing instructions, try a real website request and inspect its output. Keep factual data and external-service testing separate from synthetic examples. To update a manual installation, pull the reviewed repository changes, back up the installed folder, then replace that folder with the full updated package. Do not merge partial copies blindly.
 

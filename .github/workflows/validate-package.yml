@@ -9,7 +9,7 @@ jobs:
   validate:
     name: Package validator
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 12
     steps:
       - name: Check out repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -24,8 +24,28 @@ jobs:
       - name: Validate skill package
         run: python3 tools/check_package.py
 
+      - name: Set up Node for viewer verification
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+
+      - name: Verify standalone viewer build
+        run: python3 .agents/skills/website-development/scripts/build_atelier.py --check
+
+      - name: Test viewer data operations
+        run: node --test .agents/skills/website-development/scripts/tests/atelier-core.test.cjs
+
       - name: Install visual pipeline dependencies
         run: python3 -m pip install -r .agents/skills/website-development/scripts/requirements.txt
 
       - name: Test visual pipeline
         run: python3 -m unittest discover -s .agents/skills/website-development/scripts/tests -v
+
+      - name: Install locked browser test dependency
+        run: npm ci --ignore-scripts --prefix .agents/skills/website-development/scripts/tests/browser
+
+      - name: Install test browser
+        run: npm exec --prefix .agents/skills/website-development/scripts/tests/browser -- playwright install --with-deps --only-shell chromium
+
+      - name: Test offline Visual Atelier in browser
+        run: node --test --test-concurrency=1 .agents/skills/website-development/scripts/tests/browser/atelier-browser.test.cjs

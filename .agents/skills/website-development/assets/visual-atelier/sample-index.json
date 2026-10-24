@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "project": "maisonnoirelhx",
+  "scope": "private-research",
+  "document": {
+    "filename": "Fictional research sample \u2014 no property facts.pdf",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "section": "Architecture study",
+      "text": "Fictional research example: building phases, design integrity, and materials require source review. The 1973 date here is demonstration text, not a statement about a real property."
+    },
+    {
+      "page": 2,
+      "section": "Land study",
+      "text": "Fictional research example: an Orangewood subdivision plat and parent land sequence around 1948 would need dated source records. No ownership or parcel history is asserted."
+    },
+    {
+      "page": 3,
+      "section": "Water study",
+      "text": "Fictional research example: water rights, irrigation, and a Salt River Project reference may guide research. The schematic garden is an illustration, not evidence of an existing landscape."
+    },
+    {
+      "page": 4,
+      "section": "Material study",
+      "text": "Fictional research example: original materials, finishes, landscape integrity, plaster, and stone are research queries. Proposed finishes are not verified existing conditions."
+    },
+    {
+      "page": 5,
+      "section": "Chronology study",
+      "text": "Fictional research example: construction, transaction, agreement, and ownership dates belong in a documented chronology. The demonstration does not establish historical facts."
+    },
+    {
+      "page": 6,
+      "section": "Future study",
+      "text": "Fictional research example: designation paths, present limits, significance, and integrity must be assessed independently. No landmark approval or known architect attribution is implied."
+    }
+  ],
+  "chunks": [
+    {
+      "id": "p0001-0000",
+      "page": 1,
+      "section": "Architecture study",
+      "text": "Fictional research example: building phases, design integrity, and materials require source review. The 1973 date here is demonstration text, not a statement about a real property."
+    },
+    {
+      "id": "p0002-0000",
+      "page": 2,
+      "section": "Land study",
+      "text": "Fictional research example: an Orangewood subdivision plat and parent land sequence around 1948 would need dated source records. No ownership or parcel history is asserted."
+    },
+    {
+      "id": "p0003-0000",
+      "page": 3,
+      "section": "Water study",
+      "text": "Fictional research example: water rights, irrigation, and a Salt River Project reference may guide research. The schematic garden is an illustration, not evidence of an existing landscape."
+    },
+    {
+      "id": "p0004-0000",
+      "page": 4,
+      "section": "Material study",
+      "text": "Fictional research example: original materials, finishes, landscape integrity, plaster, and stone are research queries. Proposed finishes are not verified existing conditions."
+    },
+    {
+      "id": "p0005-0000",
+      "page": 5,
+      "section": "Chronology study",
+      "text": "Fictional research example: construction, transaction, agreement, and ownership dates belong in a documented chronology. The demonstration does not establish historical facts."
+    },
+    {
+      "id": "p0006-0000",
+      "page": 6,
+      "section": "Future study",
+      "text": "Fictional research example: designation paths, present limits, significance, and integrity must be assessed independently. No landmark approval or known architect attribution is implied."
+    }
+  ],
+  "images": [
+    {
+      "id": "pdf-demo-1",
+      "xref": 1,
+      "width": 3840,
+      "height": 2160,
+      "referencedOnPages": [
+        1
+      ],
+      "section": "Architecture study",
+      "kind": "archive-exhibit-unreviewed",
+      "caption": "Fictional schematic: architecture study. Demonstration metadata; not property imagery.",
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADwCAIAAAD+Tyo8AAAExUlEQVR4nO3dsW4UVxSAYYN4KBqqkC5KRUnKUNOnTk9NylCmQnRxqjR5Bh4AibdI4cgZHGdZ787OzH/n+ypvs3st+fc5dyV7H33+9PEKaHq89gGA0wkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwp7M8izvrz/M8jywK98//+7MZ5gn4Ks5jgK7MsvYs0JDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCJvtn9qxKe/evrn54uWr12uegwsT8Ghu0v3m2+fThzIelYDHcSfdGzcPZTwqAY/g3nSnphlfKXkgAg67DfJAulP26vEIOOmrI/cwe/UwBBxzZrpTMh6AgDNmTHfK9ThNwFv30IvuaVyPowS8XRcauYfZq1sEvEWrpDtlr64Q8Lasnu6UvXr7BLwVm0r3Dnv1Zgl4Zcu8RzULe/UGCXg1Wx65B9irN0XAK4ime4e9egsEvKgx0p2yV69LwEsIXXRPY69ei4Ava7yRe5i9emECvpS9pTsl48UIeH57TnfK9XgBAp7N8Bfd07geX5SAZ2DkHsNefQkCPot0H8pePS8Bn0i657BXz0XAD+OiOy979ZkEfCwj93Ls1ScT8NdJdxn26hMI+BDprsJefTwB38NFdwtkfAwBf8HI3RrX48ME/A/pbpnr8f8RsHRL7NV37DdgF90ue/WtPQZs5I7BXn21t4ClO6Q979V7CVi6w9vnXj1+wNLdlb3t1cMG7D2qndvJXj1gwEYut4bfq4cKWLrca+C9epCApcsxxtur2wG76HKCkTKuBmzkcqYxrse9gKXLjOrX41LA0uVyont1I2Dpsoxcxo/XPsCx1MtiQj9smYCB/xIwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCGn/MwFp++/OvtY/whRfPnq59hG0xgSFMwBAmYAhzB77r519+XfsI//rpxx/WPgKbZgJDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAh7svYB2LQXz56ufQQOMYEhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhmY8X/eP367WPsIJ9ftccrxHwy1evl3utxV4JzmaFhjABQ9hWVuh3b9+sfQR4gCWvdQeYwBC2lQm8kd9n0GICQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIWy2j1Z5f/1hrqcCjvTo86ePa58BOJEVGsIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGML+BihbSuWTn6qTAAAAAElFTkSuQmCC",
+      "rightsReviewed": false,
+      "visualReviewed": false,
+      "publicApproved": false
+    },
+    {
+      "id": "pdf-demo-2",
+      "xref": 2,
+      "width": 2160,
+      "height": 3840,
+      "referencedOnPages": [
+        2
+      ],
+      "section": "Land study",
+      "kind": "archive-exhibit-unreviewed",
+      "caption": "Fictional schematic: land study. Demonstration metadata; not property imagery.",
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADwCAIAAAD+Tyo8AAAEQklEQVR4nO3dP04baRyAYVhxneQElAg3iBOkTp2jbL01J0A0Y1H6BIlEwQGQuMU2UaSIDdqxx/78muepmfHPf159g+T5fP768nwGNP01egBgewKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGsItFznL/+LDIeeBDub262fEMywR8tsQo8KEssuy5hIYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQlgl42qxHj/Ab87zPPIeRCRh4S8AQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChrDz15fn3c9y//hwe3Uz65BTvT+TD2t1eT3r77eo5q2LHY/f2txnO23Wcw/ZK/O8zzyH4RIawgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBu2L/TJuPvn79Ej/HT39DR6hN/MmufL1297G+SUWYEhzAq8jOvVCe76fxjryY/sbM8KDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhbNjNDNNm9lfYtzhkr7abZ/rxffFJjsrq0+ctjjrAm7vvh1hdDrihZVjAc5/ttFkPeYH+5Nc8x3YXbtS+39xj+/wsxSU0hAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCHsYtQDT5v1AQ7Zq2ObJ+0AL+a+H2J1eb3X8/+nYQHPfbbTZj3kBfqTX/PcPT2NnuUU7PvNPbbPz1JcQkOYgCFMwBA27H/gD2v16fPoETgdVmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjB3Iy1jPdlehwGswBBmBd7Vl6/fRo9wdnZ8ez4d2zynygoMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChrDz15fn3c9y//hwe3Uz65BpYxc4TsrcLYS2qOatYXtizX22x7bHknneZ57DcAkNYQKGMAFDmIAhTMAQJmAIEzCEDfsiB3xwi1RjBYYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFD2GI/rXL/+LDUqYD/aZk9sYAhXEJDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFD2L8KjKMp191njQAAAABJRU5ErkJggg==",
+      "rightsReviewed": false,
+      "visualReviewed": false,
+      "publicApproved": false
+    },
+    {
+      "id": "pdf-demo-3",
+      "xref": 3,
+      "width": 4200,
+      "height": 1200,
+      "referencedOnPages": [
+        3
+      ],
+      "section": "Water study",
+      "kind": "archive-exhibit-unreviewed",
+      "caption": "Fictional schematic: water study. Demonstration metadata; not property imagery.",
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADwCAIAAAD+Tyo8AAAEaklEQVR4nO3dP2tUWRyA4XHxk1gtS0rbbRbLsJ1I8HssLGwpCH4PCWInKYON7TaLUcRiS8FvscVAmJWo49yrd95zn6eaBHI5cH/vyZn8mbn18cP7DdD009ILAA4nYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAi7PctVXlxezHIdWJXf751OvMI8AW/mWAqsyizf9hyhIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMITN9qJ2i/vj8V/bB0/+fLTsSjha4w3JCAFf35XdD4e5Q8xi1CHJH6E/uTFf/TwrNPCQ5AOGNWsH/OUddID9lenGHpJ2wLBy4YD32Tvr+ysTDT8k4YCBasD775rp/ZUp1jAk1YCBjYAhLRnwtx54ugckDraSIUkGDGwJGMIEDGG9gA97rhJ9hsNh1jMkjX8nfHpxfiQXYWzXQ/Lw9GzZleypEfBms/nl55Ptg39ev5l4BYY3cUjevruadTnfUe8IDVwTMIQJGMIEDGGxgM+fP1vkawlZ1ZDEAgZ2CRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhMUCPrv/YJGvJWRVQxILGNglYAgTMIQJGMIEDGEChrBewIf9oD/36wGmWM+QZN5e9Ef6++rfpZfADe6e3Fl6CUdHwDf77dd7Sy+B/3n56nLpJRyj3hEauJYM+FufqxSf2zDRSoYkGTCwJWAIqwa8/4EnejRiujUMSTVgYJMOeJ9ds7uzMovhhyQcMNAO+Mt7Z3pnZS5jD0k7YFi5fMCf20HrOyszGnhIRvhb6O1tOH/+bPdD2DXqkIwQ8NYwt4TvZ7whyR+hYc0EDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAi7vfQCjtTLV5dLLwG+TsA3uHtyZ+klwF4coSFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhmZeVffvuauklwNFpBPzw9GzpJcAxcoSGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQNtubm724vJjrUsCebn388H7pNQAHcoSGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGsP8AO9WMdoY+dZUAAAAASUVORK5CYII=",
+      "rightsReviewed": false,
+      "visualReviewed": false,
+      "publicApproved": false
+    },
+    {
+      "id": "pdf-demo-4",
+      "xref": 4,
+      "width": 1600,
+      "height": 1200,
+      "referencedOnPages": [
+        4
+      ],
+      "section": "Material study",
+      "kind": "archive-exhibit-unreviewed",
+      "caption": "Fictional schematic: material study. Demonstration metadata; not property imagery.",
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADwCAIAAAD+Tyo8AAAExUlEQVR4nO3dsW4UVxSAYYN4KBqqkC5KRUnKUNOnTk9NylCmQnRxqjR5Bh4AibdI4cgZHGdZ787OzH/n+ypvs3st+fc5dyV7H33+9PEKaHq89gGA0wkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwp7M8izvrz/M8jywK98//+7MZ5gn4Ks5jgK7MsvYs0JDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCJvtn9qxKe/evrn54uWr12uegwsT8Ghu0v3m2+fThzIelYDHcSfdGzcPZTwqAY/g3nSnphlfKXkgAg67DfJAulP26vEIOOmrI/cwe/UwBBxzZrpTMh6AgDNmTHfK9ThNwFv30IvuaVyPowS8XRcauYfZq1sEvEWrpDtlr64Q8Lasnu6UvXr7BLwVm0r3Dnv1Zgl4Zcu8RzULe/UGCXg1Wx65B9irN0XAK4ime4e9egsEvKgx0p2yV69LwEsIXXRPY69ei4Ava7yRe5i9emECvpS9pTsl48UIeH57TnfK9XgBAp7N8Bfd07geX5SAZ2DkHsNefQkCPot0H8pePS8Bn0i657BXz0XAD+OiOy979ZkEfCwj93Ls1ScT8NdJdxn26hMI+BDprsJefTwB38NFdwtkfAwBf8HI3RrX48ME/A/pbpnr8f8RsHRL7NV37DdgF90ue/WtPQZs5I7BXn21t4ClO6Q979V7CVi6w9vnXj1+wNLdlb3t1cMG7D2qndvJXj1gwEYut4bfq4cKWLrca+C9epCApcsxxtur2wG76HKCkTKuBmzkcqYxrse9gKXLjOrX41LA0uVyont1I2Dpsoxcxo/XPsCx1MtiQj9smYCB/xIwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCGn/MwFp++/OvtY/whRfPnq59hG0xgSFMwBAmYAhzB77r519+XfsI//rpxx/WPgKbZgJDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAh7svYB2LQXz56ufQQOMYEhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhmY8X/eP367WPsIJ9ftccrxHwy1evl3utxV4JzmaFhjABQ9hWVuh3b9+sfQR4gCWvdQeYwBC2lQm8kd9n0GICQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIWy2j1Z5f/1hrqcCjvTo86ePa58BOJEVGsIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGML+BihbSuWTn6qTAAAAAElFTkSuQmCC",
+      "rightsReviewed": false,
+      "visualReviewed": false,
+      "publicApproved": false
+    },
+    {
+      "id": "pdf-demo-5",
+      "xref": 5,
+      "width": 4096,
+      "height": 2304,
+      "referencedOnPages": [
+        5
+      ],
+      "section": "Chronology study",
+      "kind": "archive-exhibit-unreviewed",
+      "caption": "Fictional schematic: chronology study. Demonstration metadata; not property imagery.",
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADwCAIAAAD+Tyo8AAAEQklEQVR4nO3dP04baRyAYVhxneQElAg3iBOkTp2jbL01J0A0Y1H6BIlEwQGQuMU2UaSIDdqxx/78muepmfHPf159g+T5fP768nwGNP01egBgewKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGsItFznL/+LDIeeBDub262fEMywR8tsQo8KEssuy5hIYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQlgl42qxHj/Ab87zPPIeRCRh4S8AQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChrDz15fn3c9y//hwe3Uz65BTvT+TD2t1eT3r77eo5q2LHY/f2txnO23Wcw/ZK/O8zzyH4RIawgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBu2L/TJuPvn79Ej/HT39DR6hN/MmufL1297G+SUWYEhzAq8jOvVCe76fxjryY/sbM8KDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhbNjNDNNm9lfYtzhkr7abZ/rxffFJjsrq0+ctjjrAm7vvh1hdDrihZVjAc5/ttFkPeYH+5Nc8x3YXbtS+39xj+/wsxSU0hAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCHsYtQDT5v1AQ7Zq2ObJ+0AL+a+H2J1eb3X8/+nYQHPfbbTZj3kBfqTX/PcPT2NnuUU7PvNPbbPz1JcQkOYgCFMwBA27H/gD2v16fPoETgdVmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjB3Iy1jPdlehwGswBBmBd7Vl6/fRo9wdnZ8ez4d2zynygoMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChrDz15fn3c9y//hwe3Uz65BpYxc4TsrcLYS2qOatYXtizX22x7bHknneZ57DcAkNYQKGMAFDmIAhTMAQJmAIEzCEDfsiB3xwi1RjBYYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFD2GI/rXL/+LDUqYD/aZk9sYAhXEJDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFD2L8KjKMp191njQAAAABJRU5ErkJggg==",
+      "rightsReviewed": false,
+      "visualReviewed": false,
+      "publicApproved": false
+    },
+    {
+      "id": "pdf-demo-6",
+      "xref": 6,
+      "width": 2048,
+      "height": 2048,
+      "referencedOnPages": [
+        6
+      ],
+      "section": "Future study",
+      "kind": "archive-exhibit-unreviewed",
+      "caption": "Fictional schematic: future study. Demonstration metadata; not property imagery.",
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADwCAIAAAD+Tyo8AAAEaklEQVR4nO3dP2tUWRyA4XHxk1gtS0rbbRbLsJ1I8HssLGwpCH4PCWInKYON7TaLUcRiS8FvscVAmJWo49yrd95zn6eaBHI5cH/vyZn8mbn18cP7DdD009ILAA4nYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAi7PctVXlxezHIdWJXf751OvMI8AW/mWAqsyizf9hyhIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMITN9qJ2i/vj8V/bB0/+fLTsSjha4w3JCAFf35XdD4e5Q8xi1CHJH6E/uTFf/TwrNPCQ5AOGNWsH/OUddID9lenGHpJ2wLBy4YD32Tvr+ysTDT8k4YCBasD775rp/ZUp1jAk1YCBjYAhLRnwtx54ugckDraSIUkGDGwJGMIEDGG9gA97rhJ9hsNh1jMkjX8nfHpxfiQXYWzXQ/Lw9GzZleypEfBms/nl55Ptg39ev5l4BYY3cUjevruadTnfUe8IDVwTMIQJGMIEDGGxgM+fP1vkawlZ1ZDEAgZ2CRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhMUCPrv/YJGvJWRVQxILGNglYAgTMIQJGMIEDGEChrBewIf9oD/36wGmWM+QZN5e9Ef6++rfpZfADe6e3Fl6CUdHwDf77dd7Sy+B/3n56nLpJRyj3hEauJYM+FufqxSf2zDRSoYkGTCwJWAIqwa8/4EnejRiujUMSTVgYJMOeJ9ds7uzMovhhyQcMNAO+Mt7Z3pnZS5jD0k7YFi5fMCf20HrOyszGnhIRvhb6O1tOH/+bPdD2DXqkIwQ8NYwt4TvZ7whyR+hYc0EDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAi7vfQCjtTLV5dLLwG+TsA3uHtyZ+klwF4coSFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQJmAIEzCECRjCBAxhmZeVffvuauklwNFpBPzw9GzpJcAxcoSGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGMAFDmIAhTMAQNtubm724vJjrUsCebn388H7pNQAHcoSGMAFDmIAhTMAQJmAIEzCECRjCBAxhAoYwAUOYgCFMwBAmYAgTMIQJGMIEDGEChjABQ5iAIUzAECZgCBMwhAkYwgQMYQKGsP8AO9WMdoY+dZUAAAAASUVORK5CYII=",
+      "rightsReviewed": false,
+      "visualReviewed": false,
+      "publicApproved": false
+    }
+  ],
+  "sourceLinks": [
+    {
+      "page": 3,
+      "url": "https://example.invalid/reference-not-requested"
+    }
+  ],
+  "stats": {
+    "pagesNeedingOcrCheck": [
+      2
+    ]
+  }
+}

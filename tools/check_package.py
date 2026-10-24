@@ -19,6 +19,10 @@ def check(root: Path) -> list[str]:
         'references/examples.md', 'assets/site-brief.md',
         'assets/verification-handoff.md', 'assets/content-record.example.json',
         'assets/editorial-tokens.css',
+        'assets/visual-atelier/index.html', 'assets/visual-atelier/index.template.html',
+        'assets/visual-atelier/atelier-core.js', 'assets/visual-atelier/atelier.js',
+        'assets/visual-atelier/atelier.css', 'assets/visual-atelier/sample-index.json',
+        'scripts/build_atelier.py',
     ]
     for relative in required:
         if not (skill / relative).is_file():
@@ -58,6 +62,8 @@ def check(root: Path) -> list[str]:
         errors.append('UI default_prompt must mention $website-development.')
 
     for path in sorted(skill.rglob('*')):
+        if any(part in {'node_modules', '__pycache__', '.venv'} for part in path.relative_to(skill).parts):
+            continue
         if not path.is_file():
             continue
         if path.suffix == '.json':
