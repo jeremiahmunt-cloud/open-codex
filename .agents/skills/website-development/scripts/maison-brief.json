@@ -1,0 +1,65 @@
+{
+  "project": "maisonnoirelhx",
+  "fontSystem": {
+    "display": "Cormorant Garamond",
+    "body": "Manrope",
+    "license": "SIL Open Font License; retain each font's OFL.txt",
+    "bodySize": "16–18px",
+    "displaySize": "clamp(48px, 7vw, 104px)",
+    "colors": {
+      "ink": "#222720",
+      "ivory": "#f3f0e8",
+      "bronze": "#785c3f"
+    }
+  },
+  "sections": [
+    {
+      "id": "architecture",
+      "title": "Architecture & atmosphere",
+      "evidenceQuery": "building phases integrity design materials 1973",
+      "publicSearchTerms": "limestone Mediterranean courtyard architecture",
+      "visualDirection": "Refined stone, charcoal metalwork, quiet courtyard light; use actual property references for identity.",
+      "visualRole": "concept-render"
+    },
+    {
+      "id": "land",
+      "title": "The land before the house",
+      "evidenceQuery": "Orangewood subdivision plat parent land 1948",
+      "publicSearchTerms": "Phoenix historic orchard aerial landscape",
+      "visualDirection": "Use a dated verified archive map or aerial as evidence; pair it with a separate landscape mood image.",
+      "visualRole": "archive-exhibit"
+    },
+    {
+      "id": "water",
+      "title": "Water & landscape",
+      "evidenceQuery": "irrigation water right Salt River Project",
+      "publicSearchTerms": "desert courtyard water cypress garden",
+      "visualDirection": "Still water, deep shade and cypress forms; distinguish proposed landscape from historic evidence.",
+      "visualRole": "concept-render"
+    },
+    {
+      "id": "materials",
+      "title": "A material language",
+      "evidenceQuery": "materials finishes original landscape integrity",
+      "publicSearchTerms": "warm travertine charcoal plaster texture",
+      "visualDirection": "Macro material studies: warm travertine, charcoal plaster, restrained timber and bronze. These are proposed design directions.",
+      "visualRole": "material-mood"
+    },
+    {
+      "id": "history",
+      "title": "A documented chronology",
+      "evidenceQuery": "construction transaction agreement ownership 1973",
+      "publicSearchTerms": "archival architectural drawing paper texture",
+      "visualDirection": "Exact dates and records belong in HTML or vector timelines. Do not generate fake deeds or historic photographs.",
+      "visualRole": "coded-timeline"
+    },
+    {
+      "id": "research",
+      "title": "A considered future",
+      "evidenceQuery": "designation strongest paths present limits significance integrity",
+      "publicSearchTerms": "architectural preservation material detail",
+      "visualDirection": "Use verified existing features and clearly identified proposals. Do not imply landmark approval or known architect attribution.",
+      "visualRole": "property-photo"
+    }
+  ]
+}

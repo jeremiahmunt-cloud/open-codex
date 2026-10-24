@@ -89,6 +89,12 @@ The examples include a Blessed Homes AZ collection brief, a fictional residence,
 
 The visual prompt can generate a concept hero when image generation is available. No generated bitmap is required to install or use the skill.
 
+## Long-document visual research
+
+The skill includes a local Python pipeline for long PDFs: page-linked text search, original-image extraction, 4K pixel checks, optional Pexels research/downloads, responsive derivatives, and a proposed visual storyboard. Confidential indexes stay separate from website exports.
+
+See [the workflow and Windows instructions](.agents/skills/website-development/references/document-visual-pipeline.md). The script, dependency list, example brief, and focused tests are bundled in the skill's `scripts/` folder. Local analysis needs no paid API; live Pexels research needs your own free API key.
+
 ## Optional tools
 
 The skill can use Context7, Writing Style, image generation, Amazing Drawing, Zillow, SharePoint, Upstash Redis, Presentations, Sites, and GitHub when they are available and useful. They are not mandatory dependencies. Installing this skill does not connect those services, provide a production backend, or authorize publishing.

@@ -53,3 +53,7 @@ Deliver a working website with coherent visual direction, truthful content, and 
 - Commit/push or publish when requested or already authorized. Otherwise finish the reviewable implementation first; ask only for the concrete external action still needing authorization. Do not treat this skill as blanket permission to publish or message others.
 - Keep durable source in the project's established repository or artifact destination. Do not leave the only working copy in temporary storage. Preserve a rollback path for deployed changes.
 - Use [example briefs](references/examples.md) to start a property collection, single-property presentation, service-business site, or internal dashboard. Adapt the examples rather than copying their fictional facts into production.
+
+## Long documents and visual research
+
+For research PDFs, image acquisition, 4K pixel checks, and content-to-visual mapping, use [the local visual pipeline](references/document-visual-pipeline.md). Run the bundled script against the complete local PDF, retain source-page references, review OCR gaps, and keep its private index out of public deployments. Verify actual image pixels; do not present a lower-resolution render or an enlarged derivative as native 4K. Use the generated storyboard as a reviewable proposal, not an automatic factual or design judgement.
