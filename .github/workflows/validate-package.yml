@@ -23,3 +23,9 @@ jobs:
 
       - name: Validate skill package
         run: python3 tools/check_package.py
+
+      - name: Install visual pipeline dependencies
+        run: python3 -m pip install -r .agents/skills/website-development/scripts/requirements.txt
+
+      - name: Test visual pipeline
+        run: python3 -m unittest discover -s .agents/skills/website-development/scripts/tests -v

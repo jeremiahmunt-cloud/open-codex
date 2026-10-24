@@ -101,11 +101,14 @@ The skill can use Context7, Writing Style, image generation, Amazing Drawing, Zi
 
 ## Verify or update the package
 
-GitHub Actions runs the same validator on pushes and pull requests through
-[Validate package](.github/workflows/validate-package.yml). The `Package validator`
-job uses Python 3.12, read-only repository permissions, and no package installs or
-custom secrets. The official actions are pinned to release commit SHAs. To make
-passing validation a merge requirement, require `Package validator` in the
+GitHub Actions runs the package validator and visual pipeline tests on pushes
+and pull requests through [Validate package](.github/workflows/validate-package.yml). The `Package validator`
+job uses Python 3.12 and read-only repository permissions. It preserves the
+dependency-free package check, then installs only the pipeline's declared PyMuPDF
+and Pillow dependencies and discovers its `unittest` suite. The tests use synthetic
+fixtures and need no API keys or custom secrets. The official actions are pinned
+to release commit SHAs. To make passing validation a merge requirement, require
+`Package validator` in the
 repository's branch protection or ruleset settings.
 
 Run the dependency-free package smoke check from this repository:
@@ -115,6 +118,17 @@ python3 tools/check_package.py
 ```
 
 On Windows, `py tools/check_package.py` is equivalent. This checks required files, this package's simple metadata layout, local reference links, JSON validity, and unfinished placeholders. It is not a general YAML schema validator or a website audit. The package was also checked with the skill creator's `quick_validate.py` during creation.
+
+Run the complete visual pipeline test suite from the repository root with the
+same commands used in CI:
+
+```bash
+python3 -m pip install -r .agents/skills/website-development/scripts/requirements.txt
+python3 -m unittest discover -s .agents/skills/website-development/scripts/tests -v
+```
+
+This covers 401-page PDF ingestion, page-linked source traceability, 4K resolution
+rules and preventing upscaling, publication restrictions, and external-request safeguards.
 
 After changing instructions, try a real website request and inspect its output. Keep factual data and external-service testing separate from synthetic examples. To update a manual installation, pull the reviewed repository changes, back up the installed folder, then replace that folder with the full updated package. Do not merge partial copies blindly.
 
