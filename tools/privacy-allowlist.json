@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "path": ".agents/skills/website-development/assets/visual-atelier/sample-index.json",
+      "sha256": "8c64105c5d2124238bc1bcdea75487d6e276256b49b868fb5d5e00fa479f3ea0",
+      "kind": "synthetic-fixture",
+      "reason": "Offline Atelier demonstration authored entirely as fictional text and schematic SVG-derived thumbnails; contains no actual source archive or property facts. See docs/visual-atelier.md."
+    }
+  ]
+}

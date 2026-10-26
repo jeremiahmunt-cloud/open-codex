@@ -125,6 +125,23 @@ The skill can use Context7, Writing Style, image generation, Amazing Drawing, Zi
 
 ## Verify or update the package
 
+Private archives, extracted research, review manifests, and credentials belong
+outside this public repository. `.gitignore` excludes local research output and
+source documents; `python3 tools/check_privacy.py` independently checks the full
+Git index, including force-added and already tracked files, without printing
+file contents. Exact hash-pinned exceptions preserve the fictional Atelier sample
+and reviewed reusable resources. See [privacy safeguards](docs/privacy-safeguards.md)
+for the policy, recovery steps, and optional Windows pre-commit installation:
+
+```powershell
+py -3 tools/install_privacy_hook.py
+```
+
+The installer preserves existing hook setups. CI runs the dependency-free privacy
+guard and temporary-Git-repository functional tests on Linux and Windows before
+the existing visual checks. A hook/CI check reduces accidental commits; it cannot
+prevent every disclosure or remove files from Git history.
+
 GitHub Actions runs the package validator and visual pipeline tests on pushes
 and pull requests through [Validate package](.github/workflows/validate-package.yml). The `Package validator`
 job uses Python 3.12, Node 22, and read-only repository permissions. It preserves the
