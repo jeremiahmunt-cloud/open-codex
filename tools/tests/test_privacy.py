@@ -79,7 +79,7 @@ class PrivacyTests(unittest.TestCase):
     def test_force_added_artifacts_and_credentials_fail(self):
         paths = ['private-output/research-index.json', 'nested/private-custom/note.txt',
                  'original.PDF', 'evidence.docx', 'ledger.csv', 'archive.zip',
-                 'nested/extracted-images/scan.png', 'PRIVATE-OUTPUT/notes.txt',
+                 'nested/extracted-images/scan.png', 'PRIVATE-CASE/notes.txt',
                  'research-index (1).json', 'maison-visual-manifest-2026.json',
                  'website-plan.json', 'asset-manifest.json', 'pdf-182.png',
                  'nested/.env.production', '.env.example.local', '.git-credentials',
