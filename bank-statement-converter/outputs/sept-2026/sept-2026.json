@@ -1,0 +1,2643 @@
+{
+  "account_number": "2893191219",
+  "period_start": "9/1",
+  "period_end": "9/30",
+  "beginning_balance": 236.59,
+  "ending_balance": 25695.6,
+  "total_credits": 128954.18,
+  "total_debits": 103223.53,
+  "balance_verified": false,
+  "verification_message": "Balance mismatch: computed 25,967.24 vs statement ending 25,695.60 (diff +271.64)",
+  "warnings": [
+    "Row 9/4 'Purchase authorized on 09/03 Barry's Ace' has no amount (page 2) \u2014 possible misread; check against the original.",
+    "Row 9/4 'Purchase authorized on 09/03 Klarna* Air' has no amount (page 2) \u2014 possible misread; check against the original.",
+    "Row 9/22 'Purchase authorized on 09/18 Homedepot.C' has no amount (page 9) \u2014 possible misread; check against the original."
+  ],
+  "transactions": [
+    {
+      "date": "9/2",
+      "description": "Purchase Return authorized on 08/31 Little Caesars #31 Phoenix AZ $346221709149558 Card 8017",
+      "check_number": null,
+      "deposit": 3.59,
+      "withdrawal": null,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/2",
+      "description": "WT Seq494986 Wfg National Title Insu /Org=Wfg National Title Insurance Company Srf# Ecw09022600642221 Trn#260902494986 Rfb# 31881028",
+      "check_number": null,
+      "deposit": 95681.31,
+      "withdrawal": null,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/2",
+      "description": "< Business to Business ACH Debit - Byzwash-Abs! 8006251273 XXxxx2626 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 353.68,
+      "balance": 95567.81,
+      "page": 2
+    },
+    {
+      "date": "9/3",
+      "description": "Purchase authorized on 09/02 DD *Doordashdashpa Doordash.Com CA $5862458 15827250 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 4.99,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/3",
+      "description": "< Business to Business ACH Debit - Byzwash-Abs1 8006251273 xxxxx9614 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 353.68,
+      "balance": 95209.14,
+      "page": 2
+    },
+    {
+      "date": "9/4",
+      "description": "Money Transfer authorized on 09/02 Apple Cash Balance IInfiniteloop CA $386245613242820 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 14.0,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/4",
+      "description": "Money Transfer authorized on 09/02 Apple Cash Balance lInfiniteloop CA $386245802434740 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/4",
+      "description": "Recurring Payment authorized on 09/03 Apple.Com/Bill 866-712-7753 CA S346246507403421 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2.15,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/4",
+      "description": "Purchase authorized on 09/03 Barry's Ace Hardwa Phoenix AZ $346247067414153 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 136.71,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/4",
+      "description": "Purchase authorized on 09/03 Barry's Ace Hardwa Phoenix AZ TAS $386247070213781 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": null,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/4",
+      "description": "Recurring Payment authorized on 09/03 Eyeinthesky.Com Eyeinthesky.C CO S466247072041227 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 67.47,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/4",
+      "description": "Purchase authorized on 09/03 Klarna* Airbnb WWW.Klarna.CO 3t72 DE $386247107951184 Card 9712 September 30, 2026 W@ Page 3 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": null,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "9/4",
+      "description": "Zelle to Erandi Hern on 09/03 Ref # Wfct22M38Zp9 Pay",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 966.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/4",
+      "description": "Zelle to Juan Jose Tamayo on 09/03 Ref # Wfct22M3Bykn 555 E Landscaping",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 4000.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/4",
+      "description": "Zelle to Juan Jose Tamayo on 09/04 Ref # Wfct22M5Hv7B",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 5000.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/4",
+      "description": "< Business to Business ACH Debit - Byzwash-Abs1 8006251273 Xxxxx0268 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 353.68,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/4",
+      "description": "Atlasfinancial Smartpay 11N9Nx61B5H4Ena Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.99,
+      "balance": 84498.97,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Sezzle Acctverify 000000126033928 Sezzle Microdeposit Verification",
+      "check_number": null,
+      "deposit": 0.26,
+      "withdrawal": null,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Sezzle Acctverify 000000126033927 Sezzle Microdeposit Verification",
+      "check_number": null,
+      "deposit": 0.67,
+      "withdrawal": null,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/03 Apple Cash Balance 1Infiniteloop CA $386246675572628 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 250.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/03 Apple Cash Sent MO lInfiniteloop CA $46624683 1071713 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 217.45,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/03 Apple Cash Sent MO 1Infiniteloop CA $586246842159097 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 340.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/03 Little Caesars #31 800-722-3727 AZ $346247093253708 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.76,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/03 Apple Cash Balance lInfiniteloop CA $346247113237374 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 250.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/03 Apple Cash Sent MO 1Infiniteloop CA $586247 163231209 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 296.64,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/04 Apple Cash Balance lInfiniteloop CA $386247282046969 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 200.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/04 Apple Cash Sent MO 1Infiniteloop CA $386247419874788 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 330.5,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Recurring Payment authorized on 09/04 Gobrands Inc. - Fa 855-400-7833 PA S34624755 1467590 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 4.35,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/04 Zip* App Pay Later Zip.CO/US NY S346247680111872 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 41.54,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/04 Shell Oil 10006214 Phoenix AZ $306247701442712 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 49.2,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/04 Zip* 3 Installment Zip.CO/US NY $346247716556230 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 78.75,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/04 Zip* App Pay Later Zip.CO/US NY $356247734980533 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 41.54,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/04 Zip* 3 Installment Zip.CO/US NY $356247735529338 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 78.75,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/04 Public Storage 080 800-567-0759 AZ S356247743713277 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 168.18,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/04 Zip* App Pay Later Zip.CO/US NY S306247746127913 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 41.54,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/04 Zip* 3 Installment Zip.CO/US NY S$346247747226301 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 78.75,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/04 Nb Home Constructi Phoenix AZ $356248024690832 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 5000.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/04 Apple Cash Balance [Infiniteloop CA $346248032677282 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/04 Apple Cash Balance IInfiniteloop CA $586248241601610 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 6000.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/04 Apple Cash Balance IInfiniteloop CA $346248246374261 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/05 The Home Depot #0480 Phoenix AZ P346248616501062 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 186.99,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/05 Starbucks Store 53 Phoenix AZ S$306248628918514 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 41.31,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/05 Public Storage 211 800-567-0759 AZ S346248669638133 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 279.63,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Zelle to Nb on 09/05 Ref # Wfct22M9D8Yz Invoice 1564 Blessed Homes",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 4500.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Money Transfer authorized on 09/05 Apple Cash Balance IInfiniteloop CA $346248696229050 Card 9712 September 30, 2026 W@ Page 4 of 14 Deposits/ Withdrawals/ Ending daily Date Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 500.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/05 Shell Oil 10006214 Phoenix AZ $306248697426089 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 64.08,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/05 Klarna*Airbnb Columbus OH S$386248722688026 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 181.43,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/05 The Home Depot #04 800-466-3337 AZ S4662488 14982473 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 137.04,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/05 WWW.Paywithfour.CO Paywithfour.C FL $346249207729998 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 226.92,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Recurring Payment authorized on 09/06 Jobtread Jobtread.Com TX $356250036235151 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 239.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Recurring Payment authorized on 09/07 Jobtread Jobtread.Com TX $386250705640930 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 38.96,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/07 The Home Depot #0477 Phoenix AZ P3462507361 10557 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 199.6,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "ATM Withdrawal authorized on 09/07 707 E Glendale Ave Phoenix AZ 0006065 ATM ID 1734G Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 360.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Purchase authorized on 09/08 Circlek #2701541 701 E Phoenix AZ P000000146156078 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 40.01,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "ATM Withdrawal authorized on 09/08 707 E Glendale Ave Phoenix AZ 0001030 ATM ID 1734E Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1000.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Zelle to Maria Tamayo on 09/08 Ref # Wfct22MM8D9R",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2000.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Sezzle Acctverify 000000126033929 Sezzle Microdeposit Debits Verification",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 0.93,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Business to Business ACH Debit - Byzwash-Abs1 8006251273 xxxxx1519 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 353.68,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Atlasfinancial Smartsave 11NAOHr9B6Y728D Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 5.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/8",
+      "description": "Paypal Inst Xfer 260908 Credit Repaymen Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 197.0,
+      "balance": 60380.37,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Money Transfer authorized on 09/07 Apple Cash Sent MO lInfiniteloop CA $30625 1063042860 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 69.04,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Money Transfer authorized on 09/07 Apple Cash Balance 1Infiniteloop CA $466251098293591 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 250.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Recurring Payment authorized on 09/08 AZ Veteran Pools WWW.Azveteran AZ $306251661120288 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 465.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Purchase authorized on 09/08 Barry's Ace Hardwa Phoenix AZ $38625 1758057725 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 107.11,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Purchase authorized on 09/08 Barry's Ace Hardwa Phoenix AZ $58625 1761264948 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 32.39,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Purchase authorized on 09/09 The Home Depot #0480 Phoenix AZ P586252641 109066 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 138.35,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "WT Seq491169 Wfg National Title Insu /Bnf=Wfg National Title Insurance CO, Arizona Es Srf# Ow00007418240077 Trn#260909491169 Rfb# Ow00007418240077",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 5000.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Zelle to Wael on 09/09 Ref # Wfct22Mp4J5W Leds",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 180.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "ATM Withdrawal authorized on 09/09 707 E Glendale Ave Phoenix AZ 0006161 ATM ID 1734G Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1200.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Applecard Gsbank Payment 090826 1598643 Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 458.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Target Card Srvc Payment H 412445068 Jovanni J Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 700.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Business to Business ACH Debit - Byzwash-Abs1 8006251273 xxxxx9964 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1768.38,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/9",
+      "description": "Paypal Purchase 260909 Apple.Com Bill Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 70.88,
+      "balance": 49941.22,
+      "page": 4
+    },
+    {
+      "date": "9/10",
+      "description": "Instant Pmt From Xoom, A Paypal Service on 09/10 Ref#20260910112320788P 1Bqa4Z00003917675 Acctverify",
+      "check_number": null,
+      "deposit": 0.01,
+      "withdrawal": null,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/10",
+      "description": "Purchase authorized on 09/05 Homedepot.Com 800-466-3337 GA S586248814985311 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 253.96,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/10",
+      "description": "Purchase authorized on 09/08 Little Caesars #31 800-722-3727 AZ $30625 1672639465 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 76.76,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/10",
+      "description": "Money Transfer authorized on 09/08 Apple Cash Balance IInfiniteloop CA $346252040096694 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/10",
+      "description": "Purchase authorized on 09/08 DD *Mayaskitchen Doordash.Com CA $466252070122465 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 51.79,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/10",
+      "description": "Purchase authorized on 09/08 DD *Mayaskitchen Doordash.Com CA $386252070716282 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 4.35,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/10",
+      "description": "Purchase authorized on 09/09 Openai *Chatgpt Su Openai.Com CA $356252739272327 Card 9712 September 30, 2026 W@W Page 5 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 21.56,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "9/10",
+      "description": "Purchase authorized on 09/09 Goshare 800-213-3184 CA $386253079975492 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 53.97,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/10",
+      "description": "Purchase authorized on 09/10 Whitfill Nursery 824 E Phoenix AZ P000000947831105 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 436.4,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/10",
+      "description": "Zelle to Juan Jose Tamayo on 09/10 Ref# Wfct22Mtc3Zb",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2000.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/10",
+      "description": "ATM Withdrawal authorized on 09/10 707 E Glendale Ave Phoenix AZ 0001280 ATM ID 1734E Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 540.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/10",
+      "description": "Zelle to Victor M on 09/10 Ref # Wfct22Mvd3Gr 10 Hour Pay Wednesday 09 10 2026",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 250.0,
+      "balance": 46202.44,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Online Transfer From Muntazir J Ref #1bO36NJ8Nr Wells Fargo Clear Access Ba Deco Pay to Bh",
+      "check_number": null,
+      "deposit": 2932.5,
+      "withdrawal": null,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/05 Homedepot.Com 800-466-3337 GA S5862488 14985311 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 335.7,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/07 U-Haulmeadows Mart Phoenix AZ S$346250684668374 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 129.81,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Money Transfer authorized on 09/08 Apple Cash Balance lInfiniteloop CA $346252234007011 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/09 The Home Depot #04 800-466-3337 AZ S386252337842904 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 64.73,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Money Transfer authorized on 09/09 Apple Cash Balance 1Infiniteloop CA $356252786089573 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/10 Lowes #01204* 602-564-7811 AZ \u00a7586253708092075 Card 9712 O/11 Recurring Payment authorized on 09/10 WWW.Financelobby.C WWW Financelo FL $306253794812919 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 249.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Money Transfer authorized on 09/10 Cash App*Jeremiah* Oakland CA S586253826778422 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 400.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/10 Best Egg Personal 855-282-6353 DE S586254032971610 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 582.35,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/10 Zip* Temu Zip.CO/US NY S$466254064868265 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.92,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/10 Zip* Temu Zip.CO/US NY S$346254070498435 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.92,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/10 Zip* Temu Zip.CO/US NY $356254070929018 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.93,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/10 Zip* Temu Zip.CO/US NY $386254071055817 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.93,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Purchase authorized on 09/10 Qt 479 Outside Phoenix AZ P586254115336520 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.41,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Recurring Payment authorized on 09/11 Taskrabbit* Deposi WWW. Taskrabbi CA S466254279878652 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.84,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Zelle to Angelica M on 09/11 Ref # Wfct22My2Z8D Assistance Cuts",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 110.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Zelle to Victor M on 09/11 Ref # Wfct22Myhry2 Labor Pay",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 200.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Zelle to Maria on 09/11 Ref# Wfct22Mzd44W 555 Cleaning",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 65.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Zelle to Gaudencio on 09/11 Ref # Wfct22Mzds9B Labor 555",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 189.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "< Business to Business ACH Debit - Byzwash-Abs1 8006251273 XXXxx2828 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1768.38,
+      "balance": 44616.27,
+      "page": 5
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/09 DD *Doordash Tacom 855-973-1040 CA S386252739726212 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 68.86,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/14",
+      "description": "Money Transfer authorized on 09/10 Apple Cash Balance IInfiniteloop CA $586253582866453 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 150.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/10 U-Haulmeadows Mart Phoenix AZ $586253693 192644 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 29.03,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/14",
+      "description": "Money Transfer authorized on 09/10 Apple Cash Sent MO IInfiniteloop CA $306254023038823 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 4.53,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/14",
+      "description": "Money Transfer authorized on 09/10 Apple Cash Balance 1Infiniteloop CA $356254205277486 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/14",
+      "description": "Recurring Payment authorized on 09/11 Zip* Temu 183-37823729 NY S386254325455891 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 121.47,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/11 Zip* 3 Installment Zip.CO/US NY $356254339596893 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 364.42,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/11 Klarna*Airbnb Columbus OH $306254592590108 Card 9712 September 30, 2026 W@W Page 6 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 53.72,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/11 The Home Depot #04 800-466-3337 AZ S466254639091260 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 316.28,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/11 Go Puff*Gopuff 855-400-7833 PA S356254689460434 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 43.9,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Money Transfer authorized on 09/11 Apple Cash Balance IInfiniteloop CA $356254700716535 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 65.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/11 Milk & Honey Marke Phoenix AZ S$466254733738591 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 31.15,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/11 Jack IN The Box 11 Phoenix AZ $386255026119355 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 15.72,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/11 The Home Depot #0480 Phoenix AZ P306255 182043431 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 700.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/12 Shell Oil 10006214 Phoenix AZ $346255614013742 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.06,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/12 Turo Inc.* Trip SE Turo.Ccom CA $346255619557502 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2099.31,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Money Transfer authorized on 09/12 Apple Cash Balance lInfiniteloop CA $306255653634263 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2400.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/12 McDonald's F16274 Scottsdale AZ \u00a7386255707777756 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 9.27,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/12 Tst* Paris Baguett Scottsdale AZ $466255719604855 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 97.7,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/12 Shell Oil 10006214 Phoenix AZ $356255727986299 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 21.81,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "ATM Withdrawal authorized on 09/12 707 E Glendale Ave Phoenix AZ 0001515 ATM ID 1734E Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 760.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Zelle to Johanna Cohen on 09/12 Ref # Wfct22N48Xxy 1099 Pay",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2500.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Money Transfer authorized on 09/12 Apple Cash Balance lInfiniteloop CA $466255832976518 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 200.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/12 Amazon Mktpl*5L6Lx Amzn.Com/Bill WA S586256096759959 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 217.08,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/12 Amazon Mktpl*5L8KS Amzn.Com/Bill WA S$346256096761692 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 19.63,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Recurring Payment authorized on 09/12 Quantum Fiber 833-250-6306 TX S386256190241351 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 95.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Recurring Payment authorized on 09/13 P.Skool.Com/Lykkr WWW Skool.Com CA $466256257911717 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 99.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/13 Temu.Com 888-495-8368 MA $3562563 10547033 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 45.39,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/13 Temu.Com 888-495-8368 MA S$466256311683008 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.44,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/13 Temu.Com 888-495-8368 MA $3462563 12546620 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 45.39,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Recurring Payment authorized on 09/13 Apple.Com/Bill 866-712-7753 CA S356256507645754 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 19.39,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/13 Uber *Eats Help.Uber.Com CA $356256564563171 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 36.5,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/13 Burger King #20345 Bkaccounting@ AZ S586256709995060 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 29.41,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Recurring Payment authorized on 09/13 Apple.Com/Bill 866-712-7753 CA S466256793280818 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 10.77,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/13 Ctlp*Csc Servicewo Melville NY $306257075907525 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 3.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Purchase authorized on 09/13 Pro WWW.Perplexit CA $386257183660633 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 21.56,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "ATM Withdrawal authorized on 09/14 707 E Glendale Ave Phoenix AZ 0001731 ATM ID 1734E Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 240.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "Vz Wireless Vw Vzw Webpay 260913 7203826 Jovanni *Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 219.07,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260914 W5670 Zacchaeus Muntazar",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2000.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "9/14",
+      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260914 W9630 Zacchaeus Muntazar September 30, 2026 Wf Page 7 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2000.0,
+      "balance": 29367.41,
+      "page": 6
+    },
+    {
+      "date": "9/15",
+      "description": "Purchase authorized on 09/12 Doordash*09/12-2 O 855-973-1040 CA S346255325 144072 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 79.99,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Money Transfer authorized on 09/12 Apple Cash Sent MO IInfiniteloop CA $586256048569157 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 60.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Money Transfer authorized on 09/12 Apple Cash Balance IInfiniteloop CA $386256168722802 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 350.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Purchase authorized on 09/13 Shell Oil 10006214 Phoenix AZ $386256809177432 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 38.57,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Purchase authorized on 09/13 Tst* Paris Baguett Phoenix AZ $306256825047346 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 52.01,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Purchase authorized on 09/13 Dragon Tea Phoenix AZ $586257028582195 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.49,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Purchase authorized on 09/13 Dragon Tea Phoenix AZ $306257045212495 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 9.14,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Money Transfer authorized on 09/13 Apple Cash Balance IInfiniteloop CA S$306257078021591 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Purchase authorized on 09/14 Material Delivery 602-5698722 AZ 8466257569972095 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 424.38,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Zelle to Juan Jose Tamayo on 09/15 Ref # Wfct22Ndf3Pw",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2000.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Online Transfer to Jpmorgan Chase Bank, NA Chk xxxxx1098 J. Tamayo Ref #F20386Qzmr on 09/15/26",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 600.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/15",
+      "description": "Atlasfinancial Smartpay 11NajxOSba6Nvjx Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.99,
+      "balance": 25668.84,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Apple Cash Bank Xfer Jeremiah Munta Jeremiah Muntazir",
+      "check_number": null,
+      "deposit": 2112.9,
+      "withdrawal": null,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/13 Apple Cash Balance 1Infiniteloop CA S466257164204886 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2155.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/13 Apple Cash Balance 1Infiniteloop CA S346257168462532 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 200.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/13 Apple Cash Balance IInfiniteloop CA $586257169419911 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/13 Apple Cash Balance IInfiniteloop CA $356257173522686 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2400.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/13 Apple Cash Balance IInfiniteloop CA $466257232963522 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Purchase authorized on 09/14 The Home Depot #04 800-466-3337 AZ S346257296121286 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 545.28,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Purchase authorized on 09/14 The Home Depot #04 800-466-3337 AZ S386257685867290 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 136.55,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/14 Apple Cash Balance IInfiniteloop CA $386257737967268 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Purchase authorized on 09/14 The Home Depot #04 800-466-3337 AZ S466257744701425 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 263.59,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Purchase authorized on 09/14 The Home Depot #04 800-466-3337 AZ S386257749672835 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 58.31,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/14 Apple Cash Balance IInfiniteloop CA $466257792680114 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/14 Apple Cash Balance IInfiniteloop CA $586257795395457 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/14 Apple Cash Balance IInfiniteloop CA $466258052046602 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Purchase authorized on 09/14 The Home Depot #04 800-466-3337 AZ S466258 164310776 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 75.06,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Money Transfer authorized on 09/14 Apple Cash Balance IInfiniteloop CA $306258173817454 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 500.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Online Transfer to Jpmorgan Chase Bank, NA Chk xxxxx1098 J. Tamayo Ref #F2038K4P27 on 09/16/26",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1000.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Zelle to Raquel Ramirez on 09/16 Ref # Wfct22NJ2LIq Junk Removal",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 550.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Zelle to Adam Ruggles on 09/16 Ref# Wfct22NJ322P Stone Delivery",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 450.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Purchase authorized on 09/16 Target T-0233 12602 N Par Phoenix AZ P386259856060615 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 164.11,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "Atlasfinancial Smartsave 11Nann0Wbaszp1Y Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 10.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "9/16",
+      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260916 W4062 Zacchaeus Muntazar September 30, 2026 W@ Page 8 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1300.0,
+      "balance": 17633.84,
+      "page": 7
+    },
+    {
+      "date": "9/7",
+      "description": "Money Transfer authorized on 09/15 Apple Cash Balance IInfiniteloop CA $346258702357149 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 150.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/7",
+      "description": "Money Transfer authorized on 09/15 Apple Cash Balance [Infiniteloop CA $306258706563850 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/7",
+      "description": "Money Transfer authorized on 09/15 Apple Cash Sent MO IInfiniteloop CA $4662588 16588375 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 471.18,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/17",
+      "description": "Money Transfer authorized on 09/15 Apple Cash Balance IInfiniteloop CA $346258819925324 Card 6168 97 Money Transfer authorized on 09/15 Apple Cash Balance IInfiniteloop CA $586258822079899 Card 6168 ONT Money Transfer authorized on 09/15 Apple Cash Balance lInfiniteloop CA $346259120555332 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 10.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/7",
+      "description": "Purchase authorized on 09/15 The Home Depot #04 800-466-3337 AZ S586259140004208 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 209.54,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/7",
+      "description": "Purchase authorized on 09/15 DD *Doordash Filib Doordash.Com CA $386259151057808 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 44.07,
+      "balance": 16629.05,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Money Transfer authorized on 09/15 Apple Cash Balance IInfiniteloop CA $346259243627819 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Purchase authorized on 09/16 The Home Depot #04 800-466-3337 AZ S586259560550931 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 5.98,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Money Transfer authorized on 09/16 Apple Cash Balance lInfiniteloop CA $356259683577379 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Purchase authorized on 09/16 Shell Oil 10006214 Phoenix AZ S$346259686717633 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 37.74,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Money Transfer authorized on 09/16 Apple Cash Balance 1Infiniteloop CA $306259709593177 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 250.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Money Transfer authorized on 09/16 Apple Cash Balance 1Infiniteloop CA S386259833766004 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Purchase authorized on 09/16 Shell Oil 10006214 Phoenix AZ $356260180063439 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 15.65,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Purchase authorized on 09/17 DD *Doordash Safew Doordash.Com CA S586260680482075 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 13.84,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Purchase authorized on 09/17 Max WWW .Perplexit CA S$386260682008406 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 196.61,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Money Transfer authorized on 09/17 Cash App*Jovanni T Oakland CA S$356260714821836 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 60.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Money Transfer authorized on 09/17 Cash App*Jovanni T Oakland CA $346261101714825 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "Money Transfer authorized on 09/17 Cash App*Jovanni T Oakland CA $466261124010064 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "< Business to Business ACH Debit - Byzwash-Abs1 8006251273 Xxxxx4418 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1768.38,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/18",
+      "description": "+ Merchant Issued Payment Card - Quiktrip Corp Preauthpmt 260917 106259074919999 815876 4011 E Greenway Rd Phoenix AZ",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 31.99,
+      "balance": 13923.86,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "Purchase authorized on 09/17 The Home Depot #04 800-466-3337 AZ S586260604910138 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 22.43,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "Purchase authorized on 09/17 Shell Oil 10006214 Phoenix AZ $346260674230122 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 31.65,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "Money Transfer authorized on 09/17 Apple Cash Balance IInfiniteloop CA $466260696144451 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 120.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "Purchase authorized on 09/18 DD *Doordash Tacom Doordash.Com CA $306261672662082 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 33.8,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "Money Transfer authorized on 09/18 Apple Cash Balance IInfiniteloop CA $586262130043825 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "Purchase authorized on 09/18 The Home Depot #04 800-466-3337 AZ S586262209870955 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 671.55,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "Purchase authorized on 09/19 Harbor Freight Tools U Phoenix AZ P000000147360613 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 39.26,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "ATM Withdrawal authorized on 09/19 5033 N 7th St Phoenix AZ 0007955 ATM ID 5449F Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2000.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "Money Transfer authorized on 09/19 Cash App*Jeremiah* Oakland CA $466262831118927 Card 9712 September 30, 2026 Wi Page 9 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 265.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/21",
+      "description": "Money Transfer authorized on 09/19 Apple Cash Balance IInfiniteloop CA $346263008029909 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/21",
+      "description": "Purchase authorized on 09/19 WWW.Paywithfour.CO Paywithfour.C FL $306263213435740 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 228.89,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/21",
+      "description": "Purchase authorized on 09/20 Burger King #32270 Phoenix AZ $346263723146378 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 16.32,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/21",
+      "description": "Purchase authorized on 09/20 Go Puff*Gopuff 855-400-7833 PA S3562638 10244065 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 36.55,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/21",
+      "description": "Legalshield Payment 107310167646446 Jeremiah Muntazir",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 75.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/21",
+      "description": "Chase Credit Crd Epay 260918 9720888067 Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 400.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/21",
+      "description": "Paypal Purchase 260921 Apple.Com Bill Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 23.99,
+      "balance": 9859.42,
+      "page": 9
+    },
+    {
+      "date": "9/22",
+      "description": "Purchase authorized on 09/18 Homedepot.Com 800-466-3337 22ui1 GA S$386262209876355 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": null,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/22",
+      "description": "Purchase authorized on 09/20 Shell Oil 10006214 Phoenix AZ S$346263772770691 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 28.39,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/22",
+      "description": "Recurring Payment authorized on 09/21 Quantum Fiber 833-250-6306 TX S356264559684638 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/22",
+      "description": "Purchase authorized on 09/21 DD *Doordash Filib Doordash.Com CA $466264695291928 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 70.18,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/22",
+      "description": "Money Transfer authorized on 09/21 Rmtly* K29Ee Remitly.Com WA S38626473 1230245 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1150.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/22",
+      "description": "Recurring Payment authorized on 09/21 Turo Inc.* Trip SE Turo.Com CA $386264776964785 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 270.34,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/22",
+      "description": "Purchase authorized on 09/22 Microsoft#G185651291 Msbill.Info WA P000000546223854 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 18.36,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/22",
+      "description": "Purchase authorized on 09/22 Microsoft#G 180068934 Msbill.Info WA P000000541240562 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.2,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/22",
+      "description": "Purchase authorized on 09/22 Microsoft#G185373333 Msbill.Info WA P000000143772472 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 0.6,
+      "balance": 8173.64,
+      "page": 9
+    },
+    {
+      "date": "9/23",
+      "description": "Purchase authorized on 09/21 The Home Depot #04 800-466-3337 AZ S386264390208926 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 58.59,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/23",
+      "description": "Money Transfer authorized on 09/21 Apple Cash Sent MO lInfiniteloop CA $346265053263581 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 315.83,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/23",
+      "description": "Purchase authorized on 09/21 Shell Oil 10006214 Phoenix AZ $306265098886542 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.09,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/23",
+      "description": "Money Transfer authorized on 09/21 Apple Cash Balance lInfiniteloop CA $356265122782747 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": 7724.13,
+      "page": 9
+    },
+    {
+      "date": "9/24",
+      "description": "Purchase authorized on 09/18 Homedepot.Com 800-466-3337 GA $386262209876355 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 12.02,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/24",
+      "description": "Money Transfer authorized on 09/22 Apple Cash Balance IInfiniteloop CA $356265801519260 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 150.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/24",
+      "description": "Money Transfer authorized on 09/22 Apple Cash Balance IInfiniteloop CA $386266050698451 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 60.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/24",
+      "description": "Recurring Payment authorized on 09/23 Turo Inc.* Trip SE Turo.Com CA $306267080026770 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 141.45,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/24",
+      "description": "Zelle to Ashley H on 09/24 Ref # Wfct22Pdhtlj Cabinets",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 250.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/24",
+      "description": "Amazon Marketpla Internet 260922 043000095062856 Jeremiah",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 6.99,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/24",
+      "description": "Atlasfinancial Smartsave 1 1Nbaqpsbes3Epe Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 10.0,
+      "balance": 7093.67,
+      "page": 9
+    },
+    {
+      "date": "9/25",
+      "description": "Purchase Return authorized on 09/23 The Home Depot #04 Phoenix AZ S466267 103152744 Card 6168",
+      "check_number": null,
+      "deposit": 58.59,
+      "withdrawal": null,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/25",
+      "description": "Purchase Return authorized on 09/23 The Home Depot #04 Phoenix AZ $306267 104276930 Card 9712",
+      "check_number": null,
+      "deposit": 75.06,
+      "withdrawal": null,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/25",
+      "description": "Purchase authorized on 09/22 DD *Doordash Rolbe 855-973-1040 CA $346265350170545 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 47.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/25",
+      "description": "Money Transfer authorized on 09/22 Apple Cash Balance IInfiniteloop CA S466266182187583 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/25",
+      "description": "Purchase authorized on 09/23 The Home Depot #04 800-466-3337 AZ S356266305 138087 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.01,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/25",
+      "description": "Purchase authorized on 09/23 The Home Depot #04 800-466-3337 AZ S466266305 136663 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 121.8,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/25",
+      "description": "Money Transfer authorized on 09/23 Apple Cash Balance LInfiniteloop CA $586267015579925 Card 6168 September 30, 2026 W@ Page 10 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "9/25",
+      "description": "Purchase authorized on 09/24 DD *Doordash Safew Doordash.Com CA S586267749457494 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 12.09,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/25",
+      "description": "Purchase authorized on 09/24 Apple.Com/Bill 866-712-7753 CA S$346267793004631 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 19.37,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/25",
+      "description": "Recurring Payment authorized on 09/24 Turo Inc.* Trip SE Turo.Com CA $586268063866895 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 295.51,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/25",
+      "description": "Purchase authorized on 09/24 The Home Depot #0480 Phoenix AZ P356268143795646 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 224.71,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/25",
+      "description": "Purchase authorized on 09/24 Zip* Temu Zip.CO/US NY $466268200616621 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 41.96,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/25",
+      "description": "< Business to Business ACH Debit - Byzwash-Abs1 8006251273 Xxxxx7374 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1768.38,
+      "balance": 4588.49,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "WT 2026092800019003 Truist Bank /Org=Groundfloor Finance Inc Srf# 2026092800019003 Trn#260928 126381 Rfb#",
+      "check_number": null,
+      "deposit": 28089.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Purchase authorized on 09/22 Tiktok Shop Culver City CA S$466265663793450 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 6.2,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Money Transfer authorized on 09/24 Apple Cash Balance 1Infiniteloop CA $346267276947899 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Purchase authorized on 09/24 The Home Depot #04 800-466-3337 AZ S356267315935744 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 343.58,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Money Transfer authorized on 09/24 Apple Cash Balance 1Infiniteloop CA $306267702909733 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Money Transfer authorized on 09/24 Apple Cash Balance 1Infiniteloop CA $466267707763529 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Money Transfer authorized on 09/24 Apple Cash Sent MO 1Infiniteloop CA $586268005991833 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 134.27,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Money Transfer authorized on 09/24 Apple Cash Sent MO 1Infiniteloop CA $306268157469997 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Money Transfer authorized on 09/25 Apple Cash Balance 1Infiniteloop CA $466268649367616 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Purchase authorized on 09/25 DD *Doordash Tacom Doordash.Com CA $586268657217001 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 51.01,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Money Transfer authorized on 09/25 Apple Cash Balance lInfiniteloop CA $386268674898904 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Recurring Payment authorized on 09/26 Tesla Supercharger Palo Alto CA $586269583267358 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 14.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "ATM Withdrawal authorized on 09/26 707 E Glendale Ave Phoenix AZ 0003242 ATM ID 1734E Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1500.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Purchase authorized on 09/26 Qt 418 Phoenix AZ $35626983 1035636 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 28.9,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Recurring Payment authorized on 09/27 Apple.Com/Bill 866-712-7753 CA S386270475446488 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 269.49,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Money Transfer authorized on 09/27 Cash App*Shalisa A Oakland CA S466270863636003 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 140.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Purchase authorized on 09/27 The Home Depot #0480 Phoenix AZ P58627 1020547475 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 12.23,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "ATM Withdrawal authorized on 09/28 707 E Glendale Ave Phoenix AZ 0003552 ATM ID 1734E Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2000.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "Paypal Purchase 260927 Apple.Com Bill Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 45.45,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260928 W7468 Zacchaeus Muntazar",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 300.0,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/28",
+      "description": "+ Merchant Issued Payment Card - Quiktrip Corp Preauthpmt 260925 106267094239999 816950 1133 E Northern Ave Phoenix AZ",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.77,
+      "balance": 27421.59,
+      "page": 10
+    },
+    {
+      "date": "9/29",
+      "description": "Purchase authorized on 09/27 Qt 454 Phoenix AZ $586270803852003 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 11.44,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/29",
+      "description": "Purchase authorized on 09/28 Jobtread Jobtread.Com TX $30627 1854326152 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 10.74,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/29",
+      "description": "Purchase authorized on 09/28 Aliexpress 408-7855580 DE $386272 150241400 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 45.48,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/29",
+      "description": "ATM Withdrawal authorized on 09/29 707 E Glendale Ave Phoenix AZ 0003651 ATM ID 1734E Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 720.0,
+      "balance": 26633.93,
+      "page": 10
+    },
+    {
+      "date": "9/30",
+      "description": "Purchase authorized on 09/28 Shell Oil 10006214 Phoenix AZ $306271765757570 Card 6168 September 30, 2026 W@ Page 11 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 37.48,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "9/30",
+      "description": "Money Transfer authorized on 09/28 Apple Cash Balance IInfiniteloop CA S586271768989799 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 11
+    },
+    {
+      "date": "9/30",
+      "description": "Money Transfer authorized on 09/28 Apple Cash Balance IInfiniteloop CA $3562720558 14302 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 11
+    },
+    {
+      "date": "9/30",
+      "description": "Money Transfer authorized on 09/28 Apple Cash Balance IInfiniteloop CA $306272072715191 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 150.0,
+      "balance": null,
+      "page": 11
+    },
+    {
+      "date": "9/30",
+      "description": "Purchase authorized on 09/28 Shell Oil 10006214 Phoenix AZ $306272095372732 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 31.65,
+      "balance": null,
+      "page": 11
+    },
+    {
+      "date": "9/30",
+      "description": "Purchase authorized on 09/29 Apple.Com/Bill 866-712-7753 CA S$586272735307729 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 78.68,
+      "balance": null,
+      "page": 11
+    },
+    {
+      "date": "9/30",
+      "description": "Purchase authorized on 09/29 Floor and Decor 79 404-471-1634 GA S$346272793752079 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 90.8,
+      "balance": null,
+      "page": 11
+    },
+    {
+      "date": "9/30",
+      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260930 M0156 Zacchaeus Muntazar",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 150.0,
+      "balance": null,
+      "page": 11
+    },
+    {
+      "date": "9/30",
+      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260930 M4854 Zacchaeus Muntazar",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 250.0,
+      "balance": null,
+      "page": 11
+    },
+    {
+      "date": "9/30",
+      "description": "Interest Payment",
+      "check_number": null,
+      "deposit": 0.29,
+      "withdrawal": null,
+      "balance": 25695.6,
+      "page": 11
+    }
+  ],
+  "verification": {
+    "summary": {
+      "pass": 3,
+      "warn": 4,
+      "fail": 3
+    },
+    "fonts": [
+      "NotoSans"
+    ],
+    "metadata": {
+      "CreationDate": "D:20261006092031+00'00",
+      "Creator": "OCRmyPDF 17.13.0 / OCRmyPDF fpdf2 + Tesseract OCR 5.3.4",
+      "ModDate": "D:20261029230522+00'00",
+      "Producer": "pikepdf 10.17.0"
+    },
+    "checks": [
+      {
+        "category": "Metadata",
+        "name": "PDF metadata",
+        "status": "pass",
+        "detail": "Producer: pikepdf 10.17.0 | Creator: OCRmyPDF 17.13.0 / OCRmyPDF fpdf2 + Tesseract OCR 5.3.4 | Created: D:20261006092031+00'00"
+      },
+      {
+        "category": "Metadata",
+        "name": "Modification history",
+        "status": "warn",
+        "detail": "File modified after creation (ModDate D:20261029230522+00'00 \u2260 CreationDate D:20261006092031+00'00)."
+      },
+      {
+        "category": "Alignment",
+        "name": "Column alignment",
+        "status": "warn",
+        "detail": "1 misaligned value(s): deposit/withdrawal '28,089.00' p10 at x=422.3 (column center 418.6) (OCR-generated text layer \u2014 visual forensics are approximate.)"
+      },
+      {
+        "category": "Typography",
+        "name": "Font consistency",
+        "status": "warn",
+        "detail": "116/283 transaction lines deviate from the dominant style ('NotoSans', 5.2): p2 '9/2 < Business to Business ACH Debit - B'; p2 '9/3 < Business to Business ACH Debit - B'; p3 '9/4 < Business to Business ACH Debit - B'; p3 '9/4 Atlasfinancial Smartpay 11N9Nx61B5H4'; p3 '9/8 Sezzle Acctverify 000000126033928 Se' (OCR-generated text layer \u2014 visual forensics are approximate.)"
+      },
+      {
+        "category": "Verbiage",
+        "name": "Core Wells Fargo wording",
+        "status": "pass",
+        "detail": "All 6 core phrases present."
+      },
+      {
+        "category": "Verbiage",
+        "name": "Business-statement wording",
+        "status": "warn",
+        "detail": "Found 7/10 typical business phrases. Not found: 'primary account number', 'summary of checks written', 'daily balance summary'"
+      },
+      {
+        "category": "Reconciliation",
+        "name": "Overall balance",
+        "status": "fail",
+        "detail": "Balance mismatch: computed 25,967.24 vs statement ending 25,695.60 (diff +271.64)"
+      },
+      {
+        "category": "Reconciliation",
+        "name": "Running balances",
+        "status": "fail",
+        "detail": "18 break(s): row 17 (9/4): stated 84,498.97, computed 84,560.14; row 60 (9/8): stated 60,380.37, computed 60,441.54; row 73 (9/9): stated 49,941.22, computed 50,002.39; row 85 (9/10): stated 46,202.44, computed 46,263.61; row 105 (9/11): stated 44,616.27, computed 44,795.19 \u2026"
+      },
+      {
+        "category": "Reconciliation",
+        "name": "Statement totals row",
+        "status": "fail",
+        "detail": "Totals row [128954.17, 103495.16] vs computed credits 128,954.18 / debits 103,223.53."
+      },
+      {
+        "category": "Reconciliation",
+        "name": "Transaction count",
+        "status": "pass",
+        "detail": "283 transactions extracted."
+      }
+    ]
+  }
+}

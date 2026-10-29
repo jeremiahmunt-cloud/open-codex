@@ -152,11 +152,20 @@ def check_alignment(report: VerificationReport, pages, col_bounds):
             amounts = [(w, a) for w, a in amounts if a is not None]
             if not amounts:
                 continue
-            bal_w = max(amounts, key=lambda t: t[0]["x1"])[0]
-            bal_xs.append((round((bal_w["x0"] + bal_w["x1"]) / 2, 1), page.page_number, bal_w["text"]))
-            for w, _ in amounts:
-                if w is not bal_w:
-                    amt_xs.append((round((w["x0"] + w["x1"]) / 2, 1), page.page_number, w["text"]))
+            if col_bounds is not None:
+                # column-aware: values right of the withdrawal/balance
+                # boundary belong to the running-balance column. Amounts are
+                # right-aligned, so compare right edges (x1), not centers.
+                for w, _ in amounts:
+                    xc = (w["x0"] + w["x1"]) / 2
+                    target = bal_xs if xc > col_bounds["withdrawal_right"] else amt_xs
+                    target.append((round(w["x1"], 1), page.page_number, w["text"]))
+            else:
+                bal_w = max(amounts, key=lambda t: t[0]["x1"])[0]
+                bal_xs.append((round(bal_w["x1"], 1), page.page_number, bal_w["text"]))
+                for w, _ in amounts:
+                    if w is not bal_w:
+                        amt_xs.append((round(w["x1"], 1), page.page_number, w["text"]))
 
     def outliers_in(values, tol):
         if len(values) < 2:
@@ -190,6 +199,12 @@ def check_alignment(report: VerificationReport, pages, col_bounds):
                    f"(date ≤{DATE_COL_TOL}pt, amounts ≤{AMOUNT_COL_TOL}pt).")
 
 
+def _norm_font(name: str) -> str:
+    """Normalize subset-embedded font names: 'AAAAAE+TimesLTMM_1_933' -> 'TimesLTMM'."""
+    name = re.sub(r"^[A-Z]{6}\+", "", name)
+    return re.sub(r"_\d+_\d+$", "", name)
+
+
 def check_typography(report: VerificationReport, pages):
     from collections import Counter
     styles: dict[tuple, int] = Counter()
@@ -205,7 +220,8 @@ def check_typography(report: VerificationReport, pages):
             text = "".join(c["text"] for c in sorted(chs, key=lambda c: c["x0"]))
             if not re.match(r"^\s*\d{1,2}/\d{1,2}(?!\d)", text):
                 continue
-            line_styles = Counter((c["fontname"], round(c["size"], 1)) for c in chs)
+            line_styles = Counter((_norm_font(c["fontname"]), round(c["size"], 1))
+                                  for c in chs)
             for st, n in line_styles.items():
                 styles[st] += n
             per_line.append({"text": text.strip()[:40], "styles": dict(line_styles),
@@ -372,6 +388,14 @@ def verify_document(pdf_path: str, result: Optional[StatementResult] = None
         check_metadata(report, pdf)
         check_alignment(report, pages, col_bounds)
         check_typography(report, pages)
+    # OCR'd documents: the text layer is generated, so typography/alignment
+    # reflect the OCR engine, not the original print — downgrade to warnings
+    tool = " ".join(report.metadata.get(k, "") for k in ("Creator", "Producer")).lower()
+    if "ocrmypdf" in tool or "tesseract" in tool:
+        for c in report.checks:
+            if c.category in ("Typography", "Alignment") and c.status == "fail":
+                c.status = "warn"
+                c.detail += " (OCR-generated text layer — visual forensics are approximate.)"
     check_verbiage(report, full_text)
     check_reconciliation(report, result, full_text)
     return report

@@ -1,0 +1,2296 @@
+{
+  "account_number": "2893191219",
+  "period_start": "7/1",
+  "period_end": "7/31",
+  "beginning_balance": 2297.43,
+  "ending_balance": 2404.26,
+  "total_credits": 41787.94,
+  "total_debits": 41681.11,
+  "balance_verified": true,
+  "verification_message": "Balance verified: 2,404.26 == 2,404.26",
+  "warnings": [],
+  "transactions": [
+    {
+      "date": "7/1",
+      "description": "Purchase authorized on 06/29 Walmart.Com 800-925-6278 AR S386180792153567 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 28.13,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/1",
+      "description": "Money Transfer authorized on 06/29 Apple Cash Balance 1Infiniteloop CA S586181010294451 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/1",
+      "description": "Purchase authorized on 06/29 Sq *Kuppa Joy Clov Clovis CA S306181107545299 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 9.26,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/1",
+      "description": "Purchase authorized on 06/30 Uber Technologies, Inc Wilmington DE P000000941124600 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 16.95,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/1",
+      "description": "Purchase authorized on 06/30 Sq *Kuppa Joy Clov Clovis CA S346182012121164 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 12.53,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/1",
+      "description": "Online Transfer to Muntazir J Wells Fargo Clear Access Banking xxxxxx2123 Ref #Ib0Yr8K49W on 07/01/26",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 350.0,
+      "balance": 1830.56,
+      "page": 2
+    },
+    {
+      "date": "7/2",
+      "description": "Purchase Return authorized on 07/01 Turo Inc.* Trip Ju San Francisco CA S386182325571930 Card 9712",
+      "check_number": null,
+      "deposit": 750.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/2",
+      "description": "Purchase authorized on 06/30 Wendy's 0440 559-298-1656 CA S356181576469392 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 15.13,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/2",
+      "description": "Recurring Payment authorized on 07/01 Gobrands Inc. - Fa 855-400-7833 PA S356182536393107 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 4.35,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/2",
+      "description": "Purchase authorized on 07/01 Burger King #6449 Amir@Qsrwest. CA S466182580629663 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 14.81,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/2",
+      "description": "Purchase authorized on 07/01 Blast & Brew - Clo Clovis CA S466182789426650 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 11.77,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/2",
+      "description": "Purchase authorized on 07/01 Blast & Brew - Clo Clovis CA S306183131570319 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 49.21,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/2",
+      "description": "Zelle to Erandi Hern on 07/02 Ref # Wfct12CR69Ql Admin Pay Two Weeks",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1202.25,
+      "balance": 1283.04,
+      "page": 2
+    },
+    {
+      "date": "7/3",
+      "description": "Purchase authorized on 07/01 Burger King #6449 Fresno CA S386182585925020 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 9.52,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/3",
+      "description": "Purchase authorized on 07/01 Starbucks Store 26 Fresno CA S356182722200741 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 14.25,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/3",
+      "description": "Money Transfer authorized on 07/01 Apple Cash Balance 1Infiniteloop CA S306183044142818 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 70.0,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/3",
+      "description": "Purchase authorized on 07/02 Dutchbros.Coffee Oawl.Dutchbro CA S386183582481823 Card 3700 July 31, 2026 Page 3 of 12 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 13.17,
+      "balance": null,
+      "page": 2
+    },
+    {
+      "date": "7/3",
+      "description": "Purchase authorized on 07/02 The UPS Store 3981 347-2997616 MI S346183626909691 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 16.94,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/3",
+      "description": "Purchase authorized on 07/02 Taqueria Yarelis I Fresno CA S466183695035912 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 26.53,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/3",
+      "description": "Recurring Payment authorized on 07/02 Public Storage 106 800-567-0759 CA S356183732963758 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 16.6,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/3",
+      "description": "Purchase authorized on 07/02 Blast & Brew - Clo Clovis CA S356183791553537 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 11.77,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/3",
+      "description": "Purchase authorized on 07/02 DD *Doordashdashpa Doordash.Com CA S586183816084282 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 4.99,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/3",
+      "description": "Online Transfer to Muntazir J Wells Fargo Clear Access Banking xxxxxx2123 Ref #Ib0Ys5Lmpx on 07/03/26",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 30.0,
+      "balance": 1069.27,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "WT Fed#0Xm00 Western Alliance B /Org=1/Rbi Private Lending LLC Srf# 618706985958 Trn#260706064693 Rfb# 260706132251454",
+      "check_number": null,
+      "deposit": 300.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Recurring Payment authorized on 07/01 Publicrecords.US 888-7008184 NM S386183101824167 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 36.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/01 Cbtl Friant Fresno Fresno CA S466183120747593 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 9.79,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Money Transfer authorized on 07/01 Apple Cash Balance 1Infiniteloop CA S356183139576657 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/02 McDonalds 25557 Clovis CA S346183590810150 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.59,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/02 Tst*Coltons Social Clovis CA S346184184225459 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 64.92,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/02 Chevron 0379391 Clovis CA S386184199266736 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 22.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/02 Chevron 0379391 Clovis CA S466184200450698 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 87.68,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/03 The Home Depot #04 800-466-3337 AZ S346184745540916 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 54.31,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/03 Chez Maryse Fresno CA S306184754590011 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 62.88,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/03 Ventura Circle Six Fresno CA S386184754774465 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 15.46,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/03 Panda Express #733 Clovis CA S386184777454462 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 10.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/03 555 Relaxing Stati Clovis CA S586184836352224 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 210.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/03 Arco 917138 Clovis CA S306185031623241 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 14.52,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/03 Uber Technologies, Inc Wilmington DE P000000545380560 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 30.2,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/03 Ihop #1727 Fresno CA S386185053161379 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 4.97,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/03 Uber Technologies, Inc Wilmington DE P000000345944076 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 27.96,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/04 Amazon Mktpl*S43RV Amzn.Com/Bill WA S466185381274346 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 46.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/04 Shell Oil 10006214 Phoenix AZ S306185770662208 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 19.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/04 Shell Oil 10006214 Phoenix AZ S466185850720811 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 7.96,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/06 Uber Technologies, Inc Wilmington DE P000000745550943 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 22.43,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/6",
+      "description": "Purchase authorized on 07/06 Uber Technologies, Inc Wilmington DE P000000847224303 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 21.95,
+      "balance": 542.65,
+      "page": 3
+    },
+    {
+      "date": "7/7",
+      "description": "WT 2026070700015470 Truist Bank /Org=Groundfloor Finance Inc Srf# 2026070700015470 Trn#260707100215 Rfb#",
+      "check_number": null,
+      "deposit": 9240.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/7",
+      "description": "Money Transfer authorized on 07/05 Apple Cash Balance 1Infiniteloop CA S586186635235717 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 30.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/7",
+      "description": "Money Transfer authorized on 07/05 Apple Cash Balance 1Infiniteloop CA S586187111661316 Card 9712 July 31, 2026 Page 4 of 12 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 165.0,
+      "balance": null,
+      "page": 3
+    },
+    {
+      "date": "7/7",
+      "description": "Money Transfer authorized on 07/05 Apple Cash Balance 1Infiniteloop CA S386187149289384 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 35.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/7",
+      "description": "Purchase authorized on 07/05 Domino's 7619 805-650-9946 AZ S386187152824560 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 28.32,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/7",
+      "description": "Purchase authorized on 07/06 DD *Doordash 7-Ele 855-973-1040 CA S586187366702769 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.52,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/7",
+      "description": "Purchase authorized on 07/06 Deli Delicious 64 Clovis CA S346187685526751 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 14.7,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/7",
+      "description": "Purchase authorized on 07/06 Apple.Com/Bill 866-712-7753 CA S586188010988760 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 29.23,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/7",
+      "description": "Purchase authorized on 07/06 Halal Bros 141-54691986 CA S466188173019942 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 17.14,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/7",
+      "description": "Purchase authorized on 07/06 Burger King #4105 Ginger@Krafin AZ S466188190769412 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 19.4,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/7",
+      "description": "Purchase authorized on 07/07 7-Eleven 25585 7-Eleven.Com TX S586188276759430 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 22.56,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/7",
+      "description": "Purchase authorized on 07/07 Skyline Smoke Shop Fresno CA P000000347840654 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 30.5,
+      "balance": 9370.28,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Purchase Return authorized on 07/06 Public Storage 106 800-567-0759 CA S466188151075870 Card 9712",
+      "check_number": null,
+      "deposit": 4.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Money Transfer authorized on 07/06 Apple Cash Sent MO 1Infiniteloop CA S586187684589869 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 38.05,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Money Transfer authorized on 07/06 Apple Cash Balance 1Infiniteloop CA S346188020978174 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Money Transfer authorized on 07/06 Apple Cash Balance 1Infiniteloop CA S586188182724659 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Purchase authorized on 07/07 Peiwei Peiwei.Olo.CO AZ S586189123850198 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 19.8,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Online Transfer to Muntazir J Wells Fargo Clear Access Banking xxxxxx2123 Ref #Ib0Ytpq4MG on 07/07/26",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 140.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Purchase authorized on 07/07 Airbnb * Hmqp3Dyr5 Airbnb.Com CA S386189203928020 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 352.55,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Purchase authorized on 07/07 Turo Inc.* Trip Ju Turo.Com CA S386189204072630 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 335.24,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Cash eWithdrawal IN Branch 07/08/2026 16:50 PM 4501 S Central Ave Phoenix AZ 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1200.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/8",
+      "description": "Zelle to Tamayo Jovanni on 07/08 Ref # Wfct22Dfjb8Y Pay",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2250.0,
+      "balance": 4968.64,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Purchase authorized on 07/06 Rivian, LLC Irvine CA S586188076402128 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 38.86,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Purchase authorized on 07/07 Homedepot.Com 800-466-3337 GA S306188345129674 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 9.79,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Purchase authorized on 07/07 The Home Depot #04 800-466-3337 AZ S356188345125043 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 83.38,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Purchase authorized on 07/07 The Home Depot #04 800-466-3337 AZ S386188345120734 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 125.64,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Purchase authorized on 07/07 Shell Oil 10006214 Phoenix AZ S466189139319195 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 19.76,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Money Transfer authorized on 07/07 Apple Cash Balance 1Infiniteloop CA S586189143129425 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Recurring Payment authorized on 07/07 Godaddy#4131085255 480-5058855 AZ S386189212309309 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 13.19,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Purchase authorized on 07/08 Target.Com * 800-591-3869 MN S356189272234935 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 120.91,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Money Transfer authorized on 07/08 Cash App*Kenneth R Oakland CA S356189640074094 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 250.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/9",
+      "description": "Purchase authorized on 07/08 Qt 1424 Outside Avondale AZ P346190071353985 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 35.08,
+      "balance": 4172.03,
+      "page": 4
+    },
+    {
+      "date": "7/10",
+      "description": "Purchase Return authorized on 07/07 Public Storage 106 800-567-0759 CA S466189146859822 Card 9712",
+      "check_number": null,
+      "deposit": 12.6,
+      "withdrawal": null,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/10",
+      "description": "Purchase Return authorized on 07/08 The Home Depot #04 Phoenix AZ S306189645577628 Card 9712",
+      "check_number": null,
+      "deposit": 43.53,
+      "withdrawal": null,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/10",
+      "description": "Money Transfer authorized on 07/07 Apple Cash Balance 1Infiniteloop CA S356189203823797 Card 9712 July 31, 2026 Page 5 of 12 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 280.0,
+      "balance": null,
+      "page": 4
+    },
+    {
+      "date": "7/10",
+      "description": "Purchase authorized on 07/08 Qt 1424 Avondale AZ S386190070372111 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 17.78,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/10",
+      "description": "Purchase authorized on 07/09 Apple.Com/Bill 800-275-2273 CA S586190288729666 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 32.27,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/10",
+      "description": "Purchase authorized on 07/09 Apple.Com/Bill 866-712-7753 CA S346190289461976 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/10",
+      "description": "Recurring Payment authorized on 07/09 Taskrabbit* Deposi WWW.Taskrabbi CA S306190330122063 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 56.49,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/10",
+      "description": "Recurring Payment authorized on 07/09 Apple.Com/Bill 866-712-7753 CA S346190471080434 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 42.53,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/10",
+      "description": "Recurring Payment authorized on 07/09 Afterpay 044-4123456 CA S386191167774753 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 149.7,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/10",
+      "description": "Purchase authorized on 07/09 Bad Buds Fresno CA S356191191102198 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 9.99,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/10",
+      "description": "ATM Withdrawal authorized on 07/10 3002 N Central Ave Phoenix AZ 0007898 ATM ID 5449B Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 340.0,
+      "balance": 3274.4,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Money Transfer authorized on 07/08 Apple Cash Balance 1Infiniteloop CA S356190169512781 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Money Transfer authorized on 07/09 Apple Cash Balance 1Infiniteloop CA S586190308452719 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 75.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Money Transfer authorized on 07/09 Apple Cash Balance 1Infiniteloop CA S306190311177491 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Purchase authorized on 07/10 Public Storage 080 800-567-0759 AZ S306191606594410 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 30.03,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Recurring Payment authorized on 07/10 Taskrabbit* Receip WWW.Taskrabbi CA S346191728190424 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 56.51,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Money Transfer authorized on 07/10 Apple Cash Balance 1Infiniteloop CA S466192008969225 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Purchase authorized on 07/10 Uber Technologies, Inc Wilmington DE P000000245741828 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 23.91,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Money Transfer authorized on 07/10 Apple Cash Balance 1Infiniteloop CA S356192172549775 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Purchase authorized on 07/10 Uber Technologies, Inc Wilmington DE P000000742065773 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 37.66,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Purchase authorized on 07/10 Uber Technologies, Inc Wilmington DE P000000449724907 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 26.48,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Recurring Payment authorized on 07/11 Apple.Com/Bill 866-712-7753 CA S386192443616494 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 3.26,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Recurring Payment authorized on 07/11 Afterpay 185-52896014 CA S346192446292200 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 129.57,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Recurring Payment authorized on 07/11 Zip* App Pay Later 183-37823729 NY S466192661377869 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 255.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Purchase authorized on 07/11 Go Puff*Gb Lic. US 185-540-0783 PA S346192693105451 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 32.37,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Money Transfer authorized on 07/11 Apple Cash Balance 1Infiniteloop CA S306193077428385 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 120.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Purchase authorized on 07/12 Klarna* Airbnb US Klarna.Com OH S466193751501901 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 140.56,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "Recurring Payment authorized on 07/13 P.Skool.Com/Lykkr WWW.Skool.Com CA S586194257937224 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 99.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/13",
+      "description": "< Business to Business ACH Debit - Bristol West Ins EFT Pymt 260712 002800G01816534 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 161.43,
+      "balance": 1858.62,
+      "page": 5
+    },
+    {
+      "date": "7/14",
+      "description": "Online Transfer From Muntazir J Ref #Ib0Yx2B4Zz Wells Fargo Clear Access Ba Blessed Homes Investment",
+      "check_number": null,
+      "deposit": 400.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/14",
+      "description": "Money Transfer authorized on 07/11 Apple Cash Balance 1Infiniteloop CA S306193100657296 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/14",
+      "description": "Money Transfer authorized on 07/12 Apple Cash Balance 1Infiniteloop CA S346193737620400 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/14",
+      "description": "Purchase authorized on 07/12 DD *Doordash Theho Doordash.Com CA S586193827904475 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 72.78,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/14",
+      "description": "Purchase authorized on 07/12 DD *Doordash Theho Doordash.Com CA S346193841015243 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 83.11,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/14",
+      "description": "Purchase authorized on 07/12 American Ai 001260 United States AZ S386194159713570 Card 3700 July 31, 2026 Page 6 of 12 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 150.0,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "7/14",
+      "description": "Purchase authorized on 07/12 Lyft *Airport 07 Lyft.Com CA S306194232861369 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.92,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/14",
+      "description": "Purchase authorized on 07/13 Uber *Eats Help.Uber.Com CA S586194262780799 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 48.68,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/14",
+      "description": "Purchase authorized on 07/13 Uber Technologies, Inc Wilmington DE P000000842948958 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 23.15,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/14",
+      "description": "Money Transfer authorized on 07/13 Cash App*Jeremiah* Oakland CA S356194653299614 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 140.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/14",
+      "description": "Purchase authorized on 07/13 76 - DBA J S T 616 Fresno CA S466194794188909 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 13.26,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/14",
+      "description": "Recurring Payment authorized on 07/13 Apple.Com/Bill 866-712-7753 CA S586194795766598 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 3.01,
+      "balance": 1498.71,
+      "page": 6
+    },
+    {
+      "date": "7/15",
+      "description": "Online Transfer From Muntazir J Wells Fargo Clear Access Banking xxxxxx2123 Ref #Ib0Yxnd2Vg on 07/15/26",
+      "check_number": null,
+      "deposit": 2879.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/15",
+      "description": "Purchase authorized on 07/12 DD *Doordash Rolbe 855-973-1040 CA S466194213895029 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 36.75,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/15",
+      "description": "Money Transfer authorized on 07/13 Apple Cash Balance 1Infiniteloop CA S466194266207560 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/15",
+      "description": "Purchase authorized on 07/13 Ventura Circle Six Fresno CA S586194575593431 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.66,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/15",
+      "description": "Purchase authorized on 07/13 Sher-E-Punjab Fresno CA S386194714025065 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 34.59,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/15",
+      "description": "Money Transfer authorized on 07/13 Apple Cash Balance 1Infiniteloop CA S586194833214254 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 45.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/15",
+      "description": "Money Transfer authorized on 07/13 Apple Cash Balance 1Infiniteloop CA S386195140403191 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/15",
+      "description": "Purchase authorized on 07/14 Sq *Kuppa Joy Gran Fresno CA S306196116763212 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 6.85,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/15",
+      "description": "Zelle to Hector on 07/15 Ref # Wfct22F6Thx6 Windows Tuckey",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 762.0,
+      "balance": 3383.86,
+      "page": 6
+    },
+    {
+      "date": "7/16",
+      "description": "Purchase Return authorized on 07/15 Ace Hardware Corpo 8004530660 IL S356176525595367 Card 3700",
+      "check_number": null,
+      "deposit": 57.35,
+      "withdrawal": null,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/16",
+      "description": "Money Transfer authorized on 07/14 Apple Cash Balance 1Infiniteloop CA S466195575783181 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 40.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/16",
+      "description": "Recurring Payment authorized on 07/15 Turo Inc.* Trip Ju Turo.Com CA S466197154736631 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 73.81,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/16",
+      "description": "Purchase authorized on 07/15 Turo Inc.* Trip Ju Turo.Com CA S356197156772400 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 216.94,
+      "balance": 3110.46,
+      "page": 6
+    },
+    {
+      "date": "7/17",
+      "description": "WT Fed#00104 Wafd Bank /Org=Byzfunderwash LLC Srf# 3250709800502690 Trn#260717192845 Rfb#",
+      "check_number": null,
+      "deposit": 22050.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/17",
+      "description": "Money Transfer authorized on 07/14 Apple Cash Balance 1Infiniteloop CA S346196235709581 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": 25110.46,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Money Transfer authorized on 07/15 Apple Cash Balance 1Infiniteloop CA S356197155619098 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 217.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Money Transfer authorized on 07/17 Apple Cash Balance 1Infiniteloop CA S346198630364583 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 110.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/17 Klarna* Klarna Klarna.Com OH S386198699220495 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 203.7,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/17 Airbnb * Hmfmp85Z4 Airbnb.Com CA S346199154547627 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 69.36,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Money Transfer authorized on 07/17 Apple Cash Balance 1Infiniteloop CA S346199158134789 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 200.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Money Transfer authorized on 07/18 Apple Cash Balance 1Infiniteloop CA S386199549906118 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 200.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Money Transfer authorized on 07/18 Apple Cash Balance 1Infiniteloop CA S346200042903326 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 130.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/18 Sq *Kuppa Joy Gran Fresno CA S466200060299518 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.7,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/18 Airbnb * Hm2Ay3x9H Airbnb.Com CA S346200083614832 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 86.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Zelle to Erandi Hern on 07/18 Ref # Wfct22FL5Xwb 2 Weeks July 18 Pay",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 987.0,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/18 Go Puff*Bev and MO 855-400-7833 CA S386200214017282 Card 9712 July 31, 2026 Page 7 of 12 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.01,
+      "balance": null,
+      "page": 6
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/19 7-Eleven 13916 Fresno CA S306200296009493 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 7.42,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/19 Apple.Com/Bill 866-712-7753 CA S386200541609389 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 23.99,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/19 Turo Inc.* Trip Ju Turo.Com CA S386200782505039 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 225.94,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/19 Uber * Eats Pending Wilmington DE P000000345230542 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 45.63,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/20",
+      "description": "Purchase authorized on 07/19 Uber *Eats Help.Uber.Com CA S386201116262452 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 30.09,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/20",
+      "description": "Legalshield Payment 107310167646446 Jeremiah Muntazir",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 75.0,
+      "balance": 22440.62,
+      "page": 7
+    },
+    {
+      "date": "7/21",
+      "description": "Money Transfer authorized on 07/19 Apple Cash Balance 1Infiniteloop CA S386200729858806 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/21",
+      "description": "Zelle to Tamayo Jovanni on 07/21 Ref # Wfct22Ft2Xs2",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2000.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/21",
+      "description": "WT Seq457683 Wfg National Title Insu /Bnf=Wfg National Title Insurance CO, Arizona Es Srf# Ow00007223069329 Trn#260721457683 Rfb# Ow00007223069329",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 5000.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/21",
+      "description": "Bsi Financial SE Bsi Financ 072026 0014904132 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 2682.4,
+      "balance": 12658.22,
+      "page": 7
+    },
+    {
+      "date": "7/22",
+      "description": "WT Fed#0Xm00 Western Alliance B /Org=1/Rbi Private Lending LLC Srf# 620307068011 Trn#260722173240 Rfb# 260722205929551",
+      "check_number": null,
+      "deposit": 5795.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/22",
+      "description": "Purchase authorized on 07/21 Turo Inc.* Trip Ju Turo.Com CA S466202774835230 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 123.47,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/22",
+      "description": "Purchase authorized on 07/21 I3B*WY Secretary O Cheyenne WY S306203162907889 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 61.44,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/22",
+      "description": "Purchase authorized on 07/22 Target T-1417 Fresno CA P000000643941808 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 88.39,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/22",
+      "description": "Online Transfer to Muntazir J Wells Fargo Clear Access Banking xxxxxx2123 Ref #Ib0Z2Hf7Rt on 07/22/26",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 540.0,
+      "balance": 17639.92,
+      "page": 7
+    },
+    {
+      "date": "7/23",
+      "description": "Purchase authorized on 07/21 The Home Depot #04 800-466-3337 AZ S586202824125636 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 10.7,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/23",
+      "description": "Purchase authorized on 07/22 Sq *EZ/47 Fresno CA S586203703032699 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.5,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/23",
+      "description": "Purchase authorized on 07/22 Sq *Collect Coffee Fresno CA S386203793802682 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 13.8,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/23",
+      "description": "Purchase authorized on 07/22 Sq *Collect Coffee Fresno CA S466203830037663 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 6.9,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/23",
+      "description": "Recurring Payment authorized on 07/22 Affirm * Pay Fcvw3 855-423-3729 CA S346203830675901 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 83.05,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/23",
+      "description": "Purchase authorized on 07/22 Turo Inc.* Trip Ju Turo.Com CA S306204078094130 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 123.47,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/23",
+      "description": "Purchase authorized on 07/22 Bhandal Petro Fresno CA P000000743378126 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 30.04,
+      "balance": 17351.46,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Purchase Return authorized on 07/23 Apple.Com/Bill Cupertino CA S586204309767170 Card 9712",
+      "check_number": null,
+      "deposit": 9.04,
+      "withdrawal": null,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Money Transfer authorized on 07/22 Apple Cash Balance 1Infiniteloop CA S356203767770928 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Money Transfer authorized on 07/22 Apple Cash Balance 1Infiniteloop CA S386204022600868 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 150.0,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Purchase authorized on 07/22 Sq *Sequoia Brewin Fresno CA S346204141120217 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 95.72,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Purchase authorized on 07/23 Apple.Com/Bill 866-712-7753 CA S356204308047644 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 136.89,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Recurring Payment authorized on 07/23 Afterpay 185-52896014 CA S586204410281566 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 149.7,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Purchase authorized on 07/23 Arco 904964 Fresno CA P000000854100133 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 80.72,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Purchase authorized on 07/23 Turo Inc.* Trip Ju Turo.Com CA S466205103589268 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 348.62,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Purchase authorized on 07/23 Chipotle Mex Gr on Team-Banking@ CA S306205111199841 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 32.75,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Purchase authorized on 07/23 Circlek #2708734 247 E Fresno CA P000000749123406 Card 9712 July 31, 2026 Page 8 of 12 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.59,
+      "balance": null,
+      "page": 7
+    },
+    {
+      "date": "7/24",
+      "description": "Zelle to Tamayo Jovanni on 07/24 Ref # Wfct22G6Vjtk Payments for Biz",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 800.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/24",
+      "description": "< Business to Business ACH Debit - Byzwash-Abs1 8006251273 xxxxx5048 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1768.38,
+      "balance": 13727.13,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase Return authorized on 07/24 Turo Inc.* Trip Ju San Francisco CA S586205395613495 Card 9712",
+      "check_number": null,
+      "deposit": 20.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase Return authorized on 07/24 Turo Inc.* Trip Ju San Francisco CA S386205403634783 Card 9712",
+      "check_number": null,
+      "deposit": 10.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/23 Lyft *Priority 0 Lyft.Com CA S306205149829375 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 21.95,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/23 Chevron 0204506 Clovis CA S586205208444127 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 30.11,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Money Transfer authorized on 07/24 Apple Cash Balance 1Infiniteloop CA S466205633498470 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 24.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Money Transfer authorized on 07/24 Apple Cash Balance 1Infiniteloop CA S306205640774017 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/24 Walmart.Com 8009256278 Bentonville AR P000000752348851 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 139.36,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/24 Amazon Mktpl*AS7Lh Amzn.Com/Bill WA S346205764074341 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 28.42,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/24 on The Edge. Clovis CA S346206134206015 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 55.45,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/24 Tst* Eureka Restau Clovis CA S346206220212394 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 68.89,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/24 Ventura Circle Six Fresno CA P000000446981151 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 26.94,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Recurring Payment authorized on 07/25 Zip* App Pay Later 183-37823729 NY S466206403451079 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 255.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Recurring Payment authorized on 07/25 Afterpay 185-52896014 CA S356206428092160 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 129.57,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "ATM Withdrawal authorized on 07/25 1851 E Herndon Ave Clovis CA 0008951 ATM ID 9932A Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 300.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/25 Tst* South of Shaw Fresno CA S386207066606011 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 37.86,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/25 Starbucks Store 71 Fresno CA S586207102475729 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 15.45,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/26 Klarna* Airbnb US Klarna.Com OH S586207297727608 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 309.24,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Recurring Payment authorized on 07/26 Tesla Supercharger Palo Alto CA S346207583247244 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 14.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/26 Ventura Circle Six Fresno CA P000000040718673 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 28.94,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/26 Turo Inc.* Trip Ju Turo.Com CA S346208061563332 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 113.4,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/26 WM Supercenter #5337 Clovis CA P000000253896266 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 179.57,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/27",
+      "description": "Purchase authorized on 07/26 Netlify Netlify.Com CA S586208156992422 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 13.99,
+      "balance": 11914.99,
+      "page": 8
+    },
+    {
+      "date": "7/28",
+      "description": "Purchase Return authorized on 07/27 Apple.Com/Bill 866-712-7753 CA S356208764838775 Card 9712",
+      "check_number": null,
+      "deposit": 117.35,
+      "withdrawal": null,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/28",
+      "description": "Purchase authorized on 07/25 DD *Doordash Tacos 855-973-1040 CA S586207199517866 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 24.01,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/28",
+      "description": "Purchase authorized on 07/26 Carls Jr 150 Clovis CA S466207703758237 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 12.98,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/28",
+      "description": "Purchase authorized on 07/26 The Home Depot #04 800-466-3337 AZ S306207834778669 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/28",
+      "description": "Recurring Payment authorized on 07/27 Afterpay 185-52896014 CA S356208404220752 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 81.38,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/28",
+      "description": "Purchase authorized on 07/27 Festival Turf AZ WWW.Festivalt AZ S386208703661162 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1607.95,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/28",
+      "description": "Purchase authorized on 07/27 Apple.Com/Bill 866-712-7753 CA S356208763132194 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 271.64,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/28",
+      "description": "Recurring Payment authorized on 07/27 Zip* App Pay Later 183-37823729 NY S356208827405488 Card 3700 July 31, 2026 Page 9 of 12 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 67.02,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "7/28",
+      "description": "Recurring Payment authorized on 07/27 Turo Inc.* Trip Ju Turo.Com CA S306209025957288 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 469.08,
+      "balance": 9398.28,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Purchase Return authorized on 07/27 The Home Depot #04 Phoenix AZ S386208541617398 Card 3700",
+      "check_number": null,
+      "deposit": 100.0,
+      "withdrawal": null,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Money Transfer authorized on 07/27 Apple Cash Balance 1Infiniteloop CA S466208714815811 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Purchase authorized on 07/27 The Home Depot #04 800-466-3337 AZ S346208765705929 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 74.22,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Money Transfer authorized on 07/27 Apple Cash Balance 1Infiniteloop CA S306209099744017 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Money Transfer authorized on 07/27 Apple Cash Balance 1Infiniteloop CA S466209125035593 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 150.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Money Transfer authorized on 07/27 Apple Cash Balance 1Infiniteloop CA S356209126737656 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 100.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Purchase authorized on 07/27 Fusion Indian Cuis Clovis CA S346209156448922 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 73.48,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Purchase authorized on 07/28 Best Egg Personal 855-282-6353 DE S346209643767683 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 582.35,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Purchase authorized on 07/28 Cvs/Pharmacy #0993 Clovis CA S466209680443191 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 95.74,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Purchase authorized on 07/28 Wing Assistant Wingassistant CA S306210012479432 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 200.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Zelle to Ballnur on 07/29 Ref # Wfct22Gnvdr3 555 E Tuckey Cypress",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 300.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/29",
+      "description": "Zelle to Socrates on 07/29 Ref # Wfct22Gqfmzy Cypress Delivery",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 345.0,
+      "balance": 7427.49,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Purchase authorized on 07/28 Starbucks Store 02 Clovis CA S586209775676227 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 12.95,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Money Transfer authorized on 07/28 Apple Cash Sent MO 1Infiniteloop CA S356209812808073 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 141.9,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Purchase authorized on 07/28 Amazon Mktpl*T51V5 Amzn.Com/Bill WA S466209830696387 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 44.71,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Purchase authorized on 07/28 Tst* Eureka Restau Clovis CA S586210148680525 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 51.76,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Purchase authorized on 07/29 Sq *Kuppa Joy Clov Clovis CA S466210851532240 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 8.39,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Purchase authorized on 07/29 Sq *Kuppa Joy Clov Clovis CA S346211007426634 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 9.59,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Purchase authorized on 07/29 Blast & Brew - Clo Clovis CA S346211042569862 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.25,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Purchase authorized on 07/29 Uber *Eats Help.Uber.Com CA S586211083492497 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 51.48,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Recurring Payment authorized on 07/29 Zip* App Pay Later 183-37823729 NY S356211184541416 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 34.01,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Online Transfer to Muntazir J Wells Fargo Clear Access Banking xxxxxx2123 Ref #Ib0Z5F6Jn5 on 07/30/26",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 30.0,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/30",
+      "description": "Purchase authorized on 07/30 Ventura Circle Six Fresno CA P000000844141546 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 38.95,
+      "balance": 6978.5,
+      "page": 9
+    },
+    {
+      "date": "7/31",
+      "description": "Purchase authorized on 07/26 Homedepot.Com 800-466-3337 GA S466207327155190 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1073.42,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/31",
+      "description": "Purchase authorized on 07/29 Lowes #00907* 866-483-7521 NC S346211086112938 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 228.29,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/31",
+      "description": "Purchase authorized on 07/29 DD *Doordash Foodm Doordash.Com/ CA S306211194767128 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 41.92,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/31",
+      "description": "Purchase authorized on 07/30 Material Delivery 602-5698722 AZ S346211542019868 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1014.93,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/31",
+      "description": "Purchase authorized on 07/30 Sq *Joy Thru Fresn Fresno CA S466212036557781 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 11.75,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/31",
+      "description": "Recurring Payment authorized on 07/30 Eyeinthesky.Com Eyeinthesky.C CO S306212057044588 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 67.47,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/31",
+      "description": "Recurring Payment authorized on 07/30 Afterpay 044-4123456 CA S386212099059780 Card 3700",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 165.61,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/31",
+      "description": "Purchase authorized on 07/30 McDonald's F19501 Clovis CA S386212187290203 Card 9712 July 31, 2026 Page 10 of 12 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 15.08,
+      "balance": null,
+      "page": 9
+    },
+    {
+      "date": "7/31",
+      "description": "Purchase authorized on 07/31 Uber * Pending Wilmington DE P000000946866402 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 16.11,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "7/31",
+      "description": "AZ Cu Transfer 073026 11013064 Jovanni Tamayo",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 146.35,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "7/31",
+      "description": "< Business to Business ACH Debit - Byzwash-Abs1 8006251273 xxxxx2973 Blessed Homes LLC",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 1768.38,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "7/31",
+      "description": "Interest Payment",
+      "check_number": null,
+      "deposit": 0.07,
+      "withdrawal": null,
+      "balance": null,
+      "page": 10
+    },
+    {
+      "date": "7/31",
+      "description": "Monthly Service Fee",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 25.0,
+      "balance": 2404.26,
+      "page": 10
+    }
+  ],
+  "verification": {
+    "summary": {
+      "pass": 9,
+      "warn": 1,
+      "fail": 0
+    },
+    "fonts": [
+      "TimesLTMM"
+    ],
+    "metadata": {
+      "CreationDate": "D:20261002104559Z00'00'",
+      "Producer": "iOS Version 26.7 (Build 23H24) Quartz PDFContext",
+      "ModDate": "D:20261002104559Z00'00'"
+    },
+    "checks": [
+      {
+        "category": "Metadata",
+        "name": "PDF metadata",
+        "status": "pass",
+        "detail": "Producer: iOS Version 26.7 (Build 23H24) Quartz PDFContext | Creator: \u2014 | Created: D:20261002104559Z00'00'"
+      },
+      {
+        "category": "Metadata",
+        "name": "Modification history",
+        "status": "pass",
+        "detail": "No post-creation modification recorded."
+      },
+      {
+        "category": "Alignment",
+        "name": "Column alignment",
+        "status": "pass",
+        "detail": "All 245 transaction rows align within tolerance (date \u22642.5pt, amounts \u22643.0pt)."
+      },
+      {
+        "category": "Typography",
+        "name": "Font consistency",
+        "status": "pass",
+        "detail": "All 245 transaction lines use TimesLTMM 8.0pt uniformly."
+      },
+      {
+        "category": "Verbiage",
+        "name": "Core Wells Fargo wording",
+        "status": "pass",
+        "detail": "All 6 core phrases present."
+      },
+      {
+        "category": "Verbiage",
+        "name": "Business-statement wording",
+        "status": "warn",
+        "detail": "Found 7/10 typical business phrases. Not found: 'primary account number', 'summary of checks written', 'daily balance summary'"
+      },
+      {
+        "category": "Reconciliation",
+        "name": "Overall balance",
+        "status": "pass",
+        "detail": "Balance verified: 2,404.26 == 2,404.26"
+      },
+      {
+        "category": "Reconciliation",
+        "name": "Running balances",
+        "status": "pass",
+        "detail": "Running balance continuous across all 23 rows."
+      },
+      {
+        "category": "Reconciliation",
+        "name": "Statement totals row",
+        "status": "pass",
+        "detail": "Totals row matches computed sums (credits 41,787.94, debits 41,681.11)."
+      },
+      {
+        "category": "Reconciliation",
+        "name": "Transaction count",
+        "status": "pass",
+        "detail": "245 transactions extracted."
+      }
+    ]
+  }
+}

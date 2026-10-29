@@ -113,8 +113,14 @@ def _find_column_boundaries(page, tolerance: float = 3.0):
             centers["deposit"].append(xc)
         elif t in ("debits", "debits,"):
             centers["withdrawal"].append(xc)
-        elif t == "balance" and i > 0 and words[i - 1]["text"].lower() == "daily":
-            centers["balance"].append((w["x0"] + words[i - 1]["x1"]) / 2)
+        elif t == "balance":
+            # "Ending daily / balance" wraps across two lines: find a 'daily'
+            # word on the line just above, roughly same x-range
+            for ow in words:
+                if ow["text"].lower() == "daily" and abs(ow["top"] - w["top"]) < 15 \
+                        and ow["x0"] < w["x1"] + 40:
+                    centers["balance"].append((ow["x0"] + w["x1"]) / 2)
+                    break
     if not all(centers.values()):
         return None
     dep = sum(centers["deposit"]) / len(centers["deposit"])
@@ -210,10 +216,13 @@ def parse_statement(pdf_path: str) -> StatementResult:
                     continue
                 if _is_header_or_skip(line_text):
                     continue
-                # stop conditions: next section headers
-                if re.match(r"^(summary of checks written|monthly service fee|interest\b|daily balance)", line_text.lower()):
+                # stop conditions: next section headers / totals / footers
+                if re.match(r"^(summary of checks written|monthly service fee summary|interest\b|daily balance)", line_text.lower()):
                     flush()
                     in_tx_section = False
+                    continue
+                if re.match(r"^(totals\b|the ending daily|the deposits|ending balance on)", line_text.lower()):
+                    flush()
                     continue
 
                 first = ws[0]["text"]
@@ -232,23 +241,57 @@ def parse_statement(pdf_path: str) -> StatementResult:
                     current = Transaction(date=first, description=" ".join(desc_words),
                                           check_number=check_number, page=page_no)
                     _assign_amounts(current, amounts, col_bounds)
-                elif current is not None and not AMOUNT_RE.match(first):
-                    # continuation of a multi-line description
-                    extra = [w["text"] for w in ws if _parse_amount(w["text"]) is None]
+                elif current is not None:
+                    # continuation of a multi-line description; a real statement
+                    # may also carry this row's amount/balance on this line
+                    extra, amounts = [], []
+                    for w in ws:
+                        amt = _parse_amount(w["text"])
+                        if amt is not None:
+                            amounts.append((amt, (w["x0"] + w["x1"]) / 2))
+                        else:
+                            extra.append(w["text"])
                     if extra:
                         current.description += " " + " ".join(extra)
+                    if amounts:
+                        _assign_amounts(current, amounts, col_bounds)
     flush()
+
+    # fallback: on some layouts (e.g. OCR'd scans) the balance amount sits on a
+    # different visual line than the label — recover from the full page text
+    if result.beginning_balance is None or result.ending_balance is None:
+        full_text = ""
+        try:
+            with pdfplumber.open(pdf_path) as pdf:
+                full_text = "\n".join(p.extract_text(x_tolerance=6) or "" for p in pdf.pages)
+        except Exception:
+            pass
+        for regex, attr, period_attr in (
+            (BEGIN_BAL_RE, "beginning_balance", "period_start"),
+            (END_BAL_RE, "ending_balance", "period_end"),
+        ):
+            if getattr(result, attr) is None:
+                m = re.search(regex.pattern + r"[^\d]*\$?([\d,]+\.\d{2})", full_text,
+                              re.I)
+                if m:
+                    setattr(result, attr, float(m.group(2).replace(",", "")))
+                    setattr(result, period_attr, getattr(result, period_attr) or m.group(1))
 
     if not result.transactions:
         result.warnings.append(
             "No transactions found. Verify this is a Wells Fargo checking/savings "
             "statement with a 'Transaction history' section."
         )
-    # de-duplicate continuation artifacts
+    # flag suspicious rows for manual review
     for t in result.transactions:
         if t.deposit is not None and t.withdrawal is not None:
             result.warnings.append(
                 f"Row {t.date} '{t.description[:40]}' has both a credit and a debit — review manually."
+            )
+        elif t.deposit is None and t.withdrawal is None:
+            result.warnings.append(
+                f"Row {t.date} '{t.description[:40]}' has no amount "
+                f"(page {t.page}) — possible misread; check against the original."
             )
     return result
 
@@ -260,13 +303,24 @@ def _assign_amounts(tx: Transaction, amounts: list[tuple[float, float]], col_bou
         tx.balance = None
         return
     amounts_sorted = sorted(amounts, key=lambda a: a[1])
-    if len(amounts_sorted) >= 2:
-        tx.balance = amounts_sorted[-1][0]
-        amt, xc = amounts_sorted[0]
+    remaining = []
+    if col_bounds is not None:
+        # with column positions known, anything right of the withdrawal/balance
+        # boundary is the running balance (even when it's the only number)
+        for amt, xc in amounts_sorted:
+            if tx.balance is None and xc > col_bounds["withdrawal_right"]:
+                tx.balance = amt
+            else:
+                remaining.append((amt, xc))
     else:
-        amt, xc = amounts_sorted[0]
-        tx.balance = None
-
+        if len(amounts_sorted) >= 2:
+            tx.balance = tx.balance if tx.balance is not None else amounts_sorted[-1][0]
+            remaining = amounts_sorted[:-1]
+        else:
+            remaining = amounts_sorted
+    if not remaining:
+        return
+    amt, xc = remaining[0]
     if col_bounds is not None:
         if xc < col_bounds["deposit_right"]:
             tx.deposit = amt
