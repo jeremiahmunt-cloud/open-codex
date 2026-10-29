@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wells Fargo Statement → Excel Converter</title>
+<style>
+  * { box-sizing: border-box; font-family: system-ui, sans-serif; }
+  body { margin: 0; background: #f4f6f8; color: #1a1a1a; }
+  header { background: #d71e28; color: #fff; padding: 18px 24px; }
+  header h1 { margin: 0; font-size: 20px; }
+  header p { margin: 4px 0 0; opacity: .9; font-size: 13px; }
+  main { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+  #drop { border: 2px dashed #d71e28; border-radius: 12px; background: #fff;
+          padding: 48px 24px; text-align: center; cursor: pointer; transition: .15s; }
+  #drop.over { background: #fdeeee; }
+  #drop h2 { margin: 0 0 8px; }
+  #drop p { color: #666; font-size: 14px; }
+  button, .dl { background: #d71e28; color: #fff; border: 0; border-radius: 8px;
+                padding: 10px 18px; font-size: 14px; cursor: pointer; text-decoration: none;
+                display: inline-block; margin: 4px 4px 0 0; }
+  button.secondary { background: #333; }
+  #status { margin-top: 12px; font-size: 14px; color: #555; min-height: 20px; }
+  #summary, #preview { background: #fff; border-radius: 12px; padding: 20px;
+                       margin-top: 20px; display: none; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 12px; }
+  .card { background: #f8f8f8; border-radius: 8px; padding: 12px; }
+  .card .label { font-size: 11px; text-transform: uppercase; color: #888; }
+  .card .value { font-size: 18px; font-weight: 600; margin-top: 4px; }
+  .ok { color: #128a12; } .bad { color: #d71e28; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #eee; }
+  th { background: #fafafa; position: sticky; top: 0; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .warn { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px;
+          padding: 10px; margin-top: 12px; font-size: 13px; }
+  .wrap { overflow-x: auto; max-height: 480px; overflow-y: auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Wells Fargo Bank Statement → Excel Converter</h1>
+  <p>Convert your Wells Fargo PDF statements to Excel, CSV or JSON — locally, in your browser session. Nothing is uploaded to third parties.</p>
+</header>
+<main>
+  <div id="drop">
+    <h2>Drag &amp; drop your Wells Fargo statement PDF</h2>
+    <p>or click to choose a file · Checking, savings &amp; business statements</p>
+    <input type="file" id="file" accept="application/pdf" hidden>
+  </div>
+  <div id="status"></div>
+
+  <section id="summary">
+    <h2 style="margin-top:0">Summary</h2>
+    <div class="grid" id="cards"></div>
+    <div id="warnbox"></div>
+    <div style="margin-top:16px">
+      <a class="dl" id="dl-xlsx" href="#">⬇ Excel (.xlsx)</a>
+      <a class="dl" id="dl-csv" href="#" style="background:#1d6f42">⬇ CSV</a>
+      <a class="dl" id="dl-json" href="#" style="background:#333">⬇ JSON</a>
+    </div>
+  </section>
+
+  <section id="verify" style="background:#fff;border-radius:12px;padding:20px;margin-top:20px;display:none;box-shadow:0 1px 4px rgba(0,0,0,.08)">
+    <h2 style="margin-top:0">Document verification <small id="vscore" style="font-weight:400"></small></h2>
+    <table><thead><tr><th></th><th>Category</th><th>Check</th><th>Detail</th></tr></thead>
+    <tbody id="vrows"></tbody></table>
+    <div id="vmeta" style="margin-top:12px;font-size:12px;color:#666"></div>
+  </section>
+
+  <section id="preview">
+    <h2 style="margin-top:0">Transaction preview <small style="color:#888;font-weight:400">(first 50 rows)</small></h2>
+    <div class="wrap"><table>
+      <thead><tr><th>Date</th><th>Check #</th><th>Description</th>
+             <th style="text-align:right">Deposits/Credits</th>
+             <th style="text-align:right">Withdrawals/Debits</th>
+             <th style="text-align:right">Balance</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table></div>
+  </section>
+</main>
+<script>
+const drop = document.getElementById('drop'), fileIn = document.getElementById('file'),
+      status = document.getElementById('status');
+drop.onclick = () => fileIn.click();
+drop.ondragover = e => { e.preventDefault(); drop.classList.add('over'); };
+drop.ondragleave = () => drop.classList.remove('over');
+drop.ondrop = e => { e.preventDefault(); drop.classList.remove('over');
+                     if (e.dataTransfer.files[0]) upload(e.dataTransfer.files[0]); };
+fileIn.onchange = () => fileIn.files[0] && upload(fileIn.files[0]);
+
+const fmt = n => n == null ? '' : n.toLocaleString('en-US', {minimumFractionDigits: 2});
+
+async function upload(file) {
+  status.textContent = '⏳ Converting ' + file.name + '…';
+  document.getElementById('summary').style.display = 'none';
+  document.getElementById('preview').style.display = 'none';
+  const fd = new FormData(); fd.append('file', file);
+  let data;
+  try {
+    const r = await fetch('/api/convert', {method: 'POST', body: fd});
+    data = await r.json();
+    if (!r.ok) { status.innerHTML = '<span class="bad">✘ ' + (data.error || 'Conversion failed') + '</span>'; return; }
+  } catch (e) { status.innerHTML = '<span class="bad">✘ Network error</span>'; return; }
+
+  status.textContent = '✔ Converted successfully.';
+  const s = data.summary;
+  const cards = [
+    ['Account', s.account_number || '—'],
+    ['Period', (s.period_start || '?') + ' → ' + (s.period_end || '?')],
+    ['Transactions', s.count],
+    ['Beginning balance', fmt(s.beginning_balance)],
+    ['Ending balance', fmt(s.ending_balance)],
+    ['Total credits', fmt(s.total_credits)],
+    ['Total debits', fmt(s.total_debits)],
+    ['Verification', s.verified ? '✔ Verified' : '✘ Mismatch'],
+  ];
+  document.getElementById('cards').innerHTML = cards.map(([l, v]) =>
+    `<div class="card"><div class="label">${l}</div><div class="value">${v}</div></div>`).join('');
+  let warn = `<div class="${s.verified ? 'ok' : 'bad'}" style="margin-top:12px">${s.verification_message}</div>`;
+  warn += (s.warnings || []).map(w => `<div class="warn">⚠ ${w}</div>`).join('');
+  document.getElementById('warnbox').innerHTML = warn;
+  for (const f of ['xlsx', 'csv', 'json'])
+    document.getElementById('dl-' + f).href = `/api/download/${data.job}/${f}`;
+  document.getElementById('summary').style.display = 'block';
+
+  document.getElementById('rows').innerHTML = data.preview.map(t =>
+    `<tr><td>${t.date}</td><td>${t.check}</td><td>${t.description}</td>
+     <td class="num">${fmt(t.deposit)}</td><td class="num">${fmt(t.withdrawal)}</td>
+     <td class="num">${fmt(t.balance)}</td></tr>`).join('');
+  document.getElementById('preview').style.display = 'block';
+
+  const v = s.verification;
+  if (v) {
+    const icons = {pass: '✔', warn: '⚠', fail: '✘'};
+    const colors = {pass: '#128a12', warn: '#b8860b', fail: '#d71e28'};
+    document.getElementById('vscore').textContent =
+      `— ${v.summary.pass} passed, ${v.summary.warn} warnings, ${v.summary.fail} failed`;
+    document.getElementById('vrows').innerHTML = v.checks.map(c =>
+      `<tr><td style="color:${colors[c.status]};font-weight:700">${icons[c.status]}</td>
+       <td>${c.category}</td><td>${c.name}</td><td>${c.detail}</td></tr>`).join('');
+    const md = v.metadata || {};
+    document.getElementById('vmeta').innerHTML =
+      (v.fonts && v.fonts.length ? 'Fonts: ' + v.fonts.join(', ') + '<br>' : '') +
+      (Object.keys(md).length ? 'Metadata: ' +
+        Object.entries(md).map(([k, val]) => `${k}=${val}`).join(' · ') : '');
+    document.getElementById('verify').style.display = 'block';
+  }
+}
+</script>
+</body>
+</html>
