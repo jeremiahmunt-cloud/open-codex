@@ -35,47 +35,33 @@ Results appear in the CLI output, a **Verification sheet** in the Excel export,
 the `verification` block of the JSON export, and a **Document verification**
 panel in the web UI.
 
-## Install — Windows (PowerShell)
+## Windows — easiest way (no commands needed)
+
+1. Install Python from https://www.python.org/downloads/ — **tick "Add python.exe to PATH"** on the first installer screen.
+2. Open the `bank-statement-converter` folder.
+3. **Double-click `START-HERE.bat`.**
+
+That's it — it installs everything on first run, then opens the converter
+in your browser at http://localhost:8080. Drag your PDF onto the page.
+
+## Windows — PowerShell (manual)
 
 ```powershell
 cd bank-statement-converter
-powershell -ExecutionPolicy Bypass -File .\setup.ps1
+powershell -ExecutionPolicy Bypass -File .\setup.ps1   # one-time setup
+.\start-web.ps1                                        # web UI
+.\convert.ps1 statement.pdf                            # or CLI -> .xlsx/.csv/.json
 ```
 
-Then:
-- **Web UI:** `.\start-web.ps1` (opens http://localhost:8080 automatically)
-- **CLI:** `.\convert.ps1 statement.pdf` (or `statement.pdf out.csv` / `out.json`)
-
-Requires Python from https://www.python.org/downloads/ — tick **"Add python.exe to PATH"** during install.
-
-## Install — Linux / macOS
+## Linux / macOS
 
 ```bash
 cd bank-statement-converter
 python3 -m venv .venv
 .venv/bin/pip install pdfplumber pandas openpyxl flask reportlab
+.venv/bin/python converter.py statement.pdf   # CLI
+.venv/bin/python app.py                       # web UI at http://localhost:8080
 ```
-
-## Command line
-
-```bash
-# Excel (default)
-.venv/bin/python converter.py statement.pdf
-
-# CSV or JSON
-.venv/bin/python converter.py statement.pdf -o out.csv
-.venv/bin/python converter.py statement.pdf -o out.json
-```
-
-## Web UI (drag & drop)
-
-```bash
-.venv/bin/python app.py
-# open http://localhost:8080
-```
-
-Drop a PDF, review the preview + balance verification, then download
-Excel/CSV/JSON.
 
 ## Generate a test statement
 
