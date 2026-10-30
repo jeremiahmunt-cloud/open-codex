@@ -5,14 +5,10 @@
   "beginning_balance": 236.59,
   "ending_balance": 25695.6,
   "total_credits": 128954.18,
-  "total_debits": 103223.53,
+  "total_debits": 103495.16,
   "balance_verified": false,
-  "verification_message": "Balance mismatch: computed 25,967.24 vs statement ending 25,695.60 (diff +271.64)",
-  "warnings": [
-    "Row 9/4 'Purchase authorized on 09/03 Barry's Ace' has no amount (page 2) \u2014 possible misread; check against the original.",
-    "Row 9/4 'Purchase authorized on 09/03 Klarna* Air' has no amount (page 2) \u2014 possible misread; check against the original.",
-    "Row 9/22 'Purchase authorized on 09/18 Homedepot.C' has no amount (page 9) \u2014 possible misread; check against the original."
-  ],
+  "verification_message": "Adjusted against the statement images. Debits 103,495.16 match the printed total 103,495.16. Credits 128,954.18 vs printed 128,954.17 (diff +0.01). Computed ending 25,695.61 vs printed 25,695.60 (diff +0.01).",
+  "warnings": [],
   "transactions": [
     {
       "date": "9/2",
@@ -100,7 +96,7 @@
       "description": "Purchase authorized on 09/03 Barry's Ace Hardwa Phoenix AZ TAS $386247070213781 Card 9712",
       "check_number": null,
       "deposit": null,
-      "withdrawal": null,
+      "withdrawal": 7.45,
       "balance": null,
       "page": 2
     },
@@ -115,10 +111,10 @@
     },
     {
       "date": "9/4",
-      "description": "Purchase authorized on 09/03 Klarna* Airbnb WWW.Klarna.CO 3t72 DE $386247107951184 Card 9712 September 30, 2026 W@ Page 3 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "description": "Purchase authorized on 09/03 Klarna*Airbnb WWW.Klarna.CO 3t72 DE S386247107951184 Card 9712",
       "check_number": null,
       "deposit": null,
-      "withdrawal": null,
+      "withdrawal": 53.72,
       "balance": null,
       "page": 2
     },
@@ -412,7 +408,7 @@
     },
     {
       "date": "9/8",
-      "description": "Money Transfer authorized on 09/05 Apple Cash Balance IInfiniteloop CA $346248696229050 Card 9712 September 30, 2026 W@ Page 4 of 14 Deposits/ Withdrawals/ Ending daily Date Description Credits Debits balance",
+      "description": "Money Transfer authorized on 09/05 Apple Cash Balance IInfiniteloop CA $346248696229050 Card 9712",
       "check_number": null,
       "deposit": null,
       "withdrawal": 500.0,
@@ -727,7 +723,7 @@
     },
     {
       "date": "9/10",
-      "description": "Purchase authorized on 09/09 Openai *Chatgpt Su Openai.Com CA $356252739272327 Card 9712 September 30, 2026 W@W Page 5 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "description": "Purchase authorized on 09/09 Openai *Chatgpt Su Openai.Com CA $356252739272327 Card 9712",
       "check_number": null,
       "deposit": null,
       "withdrawal": 21.56,
@@ -835,7 +831,16 @@
     },
     {
       "date": "9/11",
-      "description": "Purchase authorized on 09/10 Lowes #01204* 602-564-7811 AZ \u00a7586253708092075 Card 9712 O/11 Recurring Payment authorized on 09/10 WWW.Financelobby.C WWW Financelo FL $306253794812919 Card 9712",
+      "description": "Purchase authorized on 09/10 Lowes #01204* 602-564-7811 AZ S586253708092075 Card 9712",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 117.75,
+      "balance": null,
+      "page": 5
+    },
+    {
+      "date": "9/11",
+      "description": "Recurring Payment authorized on 09/10 WWW.Financelobby.C WWW.Financelo FL S306253794812919 Card 9712",
       "check_number": null,
       "deposit": null,
       "withdrawal": 249.0,
@@ -1024,7 +1029,7 @@
     },
     {
       "date": "9/14",
-      "description": "Purchase authorized on 09/11 Klarna*Airbnb Columbus OH $306254592590108 Card 9712 September 30, 2026 W@W Page 6 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "description": "Purchase authorized on 09/11 Klarna*Airbnb Columbus OH $306254592590108 Card 9712",
       "check_number": null,
       "deposit": null,
       "withdrawal": 53.72,
@@ -1312,7 +1317,7 @@
     },
     {
       "date": "9/14",
-      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260914 W9630 Zacchaeus Muntazar September 30, 2026 Wf Page 7 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260914 W9630 Zacchaeus Muntazar",
       "check_number": null,
       "deposit": null,
       "withdrawal": 2000.0,
@@ -1618,7 +1623,7 @@
     },
     {
       "date": "9/16",
-      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260916 W4062 Zacchaeus Muntazar September 30, 2026 W@ Page 8 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "description": "< Business to Business ACH Debit - American Express ACH Pmt 260916 W4062 Zacchaeus Muntazar",
       "check_number": null,
       "deposit": null,
       "withdrawal": 1300.0,
@@ -1626,7 +1631,7 @@
       "page": 7
     },
     {
-      "date": "9/7",
+      "date": "9/17",
       "description": "Money Transfer authorized on 09/15 Apple Cash Balance IInfiniteloop CA $346258702357149 Card 9712",
       "check_number": null,
       "deposit": null,
@@ -1635,7 +1640,7 @@
       "page": 8
     },
     {
-      "date": "9/7",
+      "date": "9/17",
       "description": "Money Transfer authorized on 09/15 Apple Cash Balance [Infiniteloop CA $306258706563850 Card 6168",
       "check_number": null,
       "deposit": null,
@@ -1644,7 +1649,7 @@
       "page": 8
     },
     {
-      "date": "9/7",
+      "date": "9/17",
       "description": "Money Transfer authorized on 09/15 Apple Cash Sent MO IInfiniteloop CA $4662588 16588375 Card 6168",
       "check_number": null,
       "deposit": null,
@@ -1654,7 +1659,25 @@
     },
     {
       "date": "9/17",
-      "description": "Money Transfer authorized on 09/15 Apple Cash Balance IInfiniteloop CA $346258819925324 Card 6168 97 Money Transfer authorized on 09/15 Apple Cash Balance IInfiniteloop CA $586258822079899 Card 6168 ONT Money Transfer authorized on 09/15 Apple Cash Balance lInfiniteloop CA $346259120555332 Card 9712",
+      "description": "Money Transfer authorized on 09/15 Apple Cash Balance 1Infiniteloop CA S346258819925324 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 50.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/17",
+      "description": "Money Transfer authorized on 09/15 Apple Cash Balance 1Infiniteloop CA S586258822079899 Card 6168",
+      "check_number": null,
+      "deposit": null,
+      "withdrawal": 20.0,
+      "balance": null,
+      "page": 8
+    },
+    {
+      "date": "9/17",
+      "description": "Money Transfer authorized on 09/15 Apple Cash Balance 1Infiniteloop CA S346259120555332 Card 9712",
       "check_number": null,
       "deposit": null,
       "withdrawal": 10.0,
@@ -1662,7 +1685,7 @@
       "page": 8
     },
     {
-      "date": "9/7",
+      "date": "9/17",
       "description": "Purchase authorized on 09/15 The Home Depot #04 800-466-3337 AZ S586259140004208 Card 6168",
       "check_number": null,
       "deposit": null,
@@ -1671,7 +1694,7 @@
       "page": 8
     },
     {
-      "date": "9/7",
+      "date": "9/17",
       "description": "Purchase authorized on 09/15 DD *Doordash Filib Doordash.Com CA $386259151057808 Card 6168",
       "check_number": null,
       "deposit": null,
@@ -1879,7 +1902,7 @@
     },
     {
       "date": "9/21",
-      "description": "Money Transfer authorized on 09/19 Cash App*Jeremiah* Oakland CA $466262831118927 Card 9712 September 30, 2026 Wi Page 9 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "description": "Money Transfer authorized on 09/19 Cash App*Jeremiah* Oakland CA $466262831118927 Card 9712",
       "check_number": null,
       "deposit": null,
       "withdrawal": 265.0,
@@ -1951,10 +1974,10 @@
     },
     {
       "date": "9/22",
-      "description": "Purchase authorized on 09/18 Homedepot.Com 800-466-3337 22ui1 GA S$386262209876355 Card 9712",
+      "description": "Purchase authorized on 09/18 Homedepot.Com 800-466-3337 GA S386262209876355 Card 9712",
       "check_number": null,
       "deposit": null,
-      "withdrawal": null,
+      "withdrawal": 22.71,
       "balance": null,
       "page": 9
     },
@@ -2185,7 +2208,7 @@
     },
     {
       "date": "9/25",
-      "description": "Money Transfer authorized on 09/23 Apple Cash Balance LInfiniteloop CA $586267015579925 Card 6168 September 30, 2026 W@ Page 10 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "description": "Money Transfer authorized on 09/23 Apple Cash Balance LInfiniteloop CA $586267015579925 Card 6168",
       "check_number": null,
       "deposit": null,
       "withdrawal": 50.0,
@@ -2473,7 +2496,7 @@
     },
     {
       "date": "9/30",
-      "description": "Purchase authorized on 09/28 Shell Oil 10006214 Phoenix AZ $306271765757570 Card 6168 September 30, 2026 W@ Page 11 of 14 Check Deposits/ Withdrawals/ Ending daily Date Number Description Credits Debits balance",
+      "description": "Purchase authorized on 09/28 Shell Oil 10006214 Phoenix AZ $306271765757570 Card 6168",
       "check_number": null,
       "deposit": null,
       "withdrawal": 37.48,
@@ -2565,8 +2588,8 @@
   "verification": {
     "summary": {
       "pass": 3,
-      "warn": 4,
-      "fail": 3
+      "warn": 5,
+      "fail": 2
     },
     "fonts": [
       "NotoSans"
@@ -2618,26 +2641,90 @@
         "category": "Reconciliation",
         "name": "Overall balance",
         "status": "fail",
-        "detail": "Balance mismatch: computed 25,967.24 vs statement ending 25,695.60 (diff +271.64)"
-      },
-      {
-        "category": "Reconciliation",
-        "name": "Running balances",
-        "status": "fail",
-        "detail": "18 break(s): row 17 (9/4): stated 84,498.97, computed 84,560.14; row 60 (9/8): stated 60,380.37, computed 60,441.54; row 73 (9/9): stated 49,941.22, computed 50,002.39; row 85 (9/10): stated 46,202.44, computed 46,263.61; row 105 (9/11): stated 44,616.27, computed 44,795.19 \u2026"
+        "detail": "Adjusted against the statement images. Debits 103,495.16 match the printed total 103,495.16. Credits 128,954.18 vs printed 128,954.17 (diff +0.01). Computed ending 25,695.61 vs printed 25,695.60 (diff +0.01)."
       },
       {
         "category": "Reconciliation",
         "name": "Statement totals row",
         "status": "fail",
-        "detail": "Totals row [128954.17, 103495.16] vs computed credits 128,954.18 / debits 103,223.53."
+        "detail": "Printed totals credits 128,954.17 / debits 103,495.16. Computed credits 128,954.18 / debits 103,495.16."
+      },
+      {
+        "category": "Reconciliation",
+        "name": "Running balances",
+        "status": "warn",
+        "detail": "1 break(s) remain: [(286, '9/30', 25695.6, 25695.61, -0.01)]"
       },
       {
         "category": "Reconciliation",
         "name": "Transaction count",
         "status": "pass",
-        "detail": "283 transactions extracted."
+        "detail": "286 transactions after inserting 3 rows the OCR pass had merged away."
       }
     ]
+  },
+  "adjustments": [
+    {
+      "action": "filled missing debit",
+      "detail": "9/4 Barry's Ace Hardware 7.45 (statement page 2). OCR captured the description and dropped the amount.",
+      "amount": 7.45
+    },
+    {
+      "action": "filled missing debit",
+      "detail": "9/4 Klarna*Airbnb 53.72 (statement page 2). OCR captured the description and dropped the amount.",
+      "amount": 53.72
+    },
+    {
+      "action": "split merged rows",
+      "detail": "9/11 Lowes debit is 117.75, not 249.00. OCR attached the next row's amount and dropped Recurring Payment WWW.Financelobby 249.00 (statement page 5). Net debit change +117.75.",
+      "amount": 117.75
+    },
+    {
+      "action": "split merged rows",
+      "detail": "9/17 Apple Cash transfers on statement page 8 are 50.00, 20.00, and 10.00. OCR kept a single 10.00 row and merged the descriptions. Net debit change +70.00.",
+      "amount": 70.0
+    },
+    {
+      "action": "corrected date",
+      "detail": "OCR date 9/7 -> 9/17 (statement page 8, ref 346258702357149)"
+    },
+    {
+      "action": "corrected date",
+      "detail": "OCR date 9/7 -> 9/17 (statement page 8, ref 306258706563850)"
+    },
+    {
+      "action": "corrected date",
+      "detail": "OCR date 9/7 -> 9/17 (statement page 8, ref 16588375)"
+    },
+    {
+      "action": "corrected date",
+      "detail": "OCR date 9/7 -> 9/17 (statement page 8, ref 586259140004208)"
+    },
+    {
+      "action": "corrected date",
+      "detail": "OCR date 9/7 -> 9/17 (statement page 8, ref 386259151057808)"
+    },
+    {
+      "action": "filled missing debit",
+      "detail": "9/22 Homedepot.Com 22.71 (statement page 9). OCR captured the description and dropped the amount. A later 9/24 row with the same reference (12.02) was already captured and was left unchanged.",
+      "amount": 22.71
+    },
+    {
+      "action": "cleaned descriptions",
+      "detail": "Removed OCR page-header text from 8 descriptions. Amounts unchanged."
+    }
+  ],
+  "reconciliation": {
+    "statement_beginning_balance": 236.59,
+    "statement_ending_balance": 25695.6,
+    "statement_total_credits": 128954.17,
+    "statement_total_debits": 103495.16,
+    "computed_credits": 128954.18,
+    "computed_debits": 103495.16,
+    "computed_ending": 25695.61,
+    "debits_match_statement_total": true,
+    "credits_difference": 0.01,
+    "ending_difference": 0.01,
+    "residual_note": "After the OCR corrections, every printed daily balance through 9/29 (26,633.93) matches the running sum. The transactions after that daily balance, read from pages 10-11, sum to an ending of 25,695.61. The statement prints 25,695.60 and a credit total of 128,954.17, both $0.01 lower. No source row on those pages differs by a readable cent, so the $0.01 is left unadjusted rather than plugged."
   }
 }
